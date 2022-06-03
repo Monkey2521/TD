@@ -111,4 +111,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 0
-  _cost: 0
+  _buildCost: 20
+  _stats:
+    _bulletDamage: 10
+    _bulletSpeed: 2
+    _attackTime: 3
+  _maxLevel: 10
+  _upgradeCost: 25
+  _additionalCost: 15
+  _upgradeStatsPerLevel:
+    _bulletDamage: 5
+    _bulletSpeed: 1
+    _attackTime: 0.25

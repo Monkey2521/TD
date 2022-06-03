@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TowerBullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    int _speed;
+    int _damage;
 
-    // Update is called once per frame
-    void Update()
+    public void Init(int speed, int damage)
     {
-        
+        _speed = speed;
+        _damage = damage;
     }
 }
