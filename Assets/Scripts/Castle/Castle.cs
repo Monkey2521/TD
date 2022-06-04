@@ -42,4 +42,9 @@ public class Castle : MonoBehaviour, IDamageable
             _eventManager.OnGameOver?.Invoke();
         }
     }
+
+    public Transform GetTransform()
+    {
+        return transform;
+    }
 } 

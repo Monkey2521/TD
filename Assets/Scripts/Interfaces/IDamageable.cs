@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public interface IDamageable
 {
     public int HP { get; }
@@ -6,4 +8,6 @@ public interface IDamageable
     public HealthBar Health { get; }
 
     public void TakeDamage(int damage);
+
+    public Transform GetTransform();
 }

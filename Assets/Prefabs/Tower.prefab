@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 7237725135284566377}
   - component: {fileID: 7237725135284566374}
   - component: {fileID: 7237725135284566372}
+  - component: {fileID: 1476444247}
   - component: {fileID: 5148734966440186366}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 7237725135284566373}
   m_LocalRotation: {x: 0.35355338, y: -0.1464466, z: 0.35355338, w: 0.8535535}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,6 +99,26 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 6
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1476444247
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7237725135284566373}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 87fdac79311a64d45961ae4ae97f48b6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &5148734966440186366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +137,9 @@ MonoBehaviour:
     _bulletDamage: 10
     _bulletSpeed: 2
     _attackTime: 3
+    _attackRange: 0
+  _bulletPoolSize: 5
+  _bulletPrefab: {fileID: 2324956328620741907, guid: e875d70bf97df954c836abc5bdd6d927, type: 3}
   _maxLevel: 10
   _upgradeCost: 25
   _additionalCost: 15
@@ -123,3 +147,4 @@ MonoBehaviour:
     _bulletDamage: 5
     _bulletSpeed: 1
     _attackTime: 0.25
+    _attackRange: 0
