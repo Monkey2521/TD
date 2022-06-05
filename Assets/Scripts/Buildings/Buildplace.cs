@@ -6,8 +6,9 @@ public class Buildplace : ClickableObject
     [Header("Settings")]
     [SerializeField] Tower _towerPrefab;
     Tower _tower;
+    public Tower Tower => _tower;
 
-    bool _isEmpty;
+    bool _isEmpty = true;
     public bool IsEmpty => _isEmpty;
 
     GoldInventory _inventory;
@@ -33,11 +34,15 @@ public class Buildplace : ClickableObject
     {
         base.OnPointerClick(eventData);
 
+        _eventManager.OnBuildplaceClick?.Invoke(this);
+
+        /*
         if (_isEmpty && _inventory.RemoveGold(_towerPrefab.BuildCost))
         {
            _tower = Instantiate(_towerPrefab, transform.position + Vector3.up, Quaternion.identity, transform);
 
             _isEmpty = false;
-        } 
+        }
+        */
     }
 }

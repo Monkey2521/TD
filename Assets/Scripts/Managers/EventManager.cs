@@ -11,6 +11,8 @@ public class EventManager : MonoBehaviour
     public UnityEvent OnGameStart;
     public UnityEvent OnGameOver;
 
+    public UnityEvent<Buildplace> OnBuildplaceClick;
+
     static EventManager _instance;
     public static EventManager GetEventManager() => _instance;
 
