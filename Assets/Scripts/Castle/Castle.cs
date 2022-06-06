@@ -43,8 +43,5 @@ public class Castle : MonoBehaviour, IDamageable
         }
     }
 
-    public Transform GetTransform()
-    {
-        return transform;
-    }
+    public Transform GetTransform() => transform;
 } 

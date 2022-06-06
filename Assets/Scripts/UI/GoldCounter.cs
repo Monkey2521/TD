@@ -1,18 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GoldCounter : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] UnityEngine.UI.Text _goldText;
+    
+    EventManager _eventManager;
+    GoldInventory _inventory;
+
     void Start()
     {
-        
+        _eventManager = EventManager.GetEventManager();
+        _eventManager.OnInventoryUpdate.AddListener(UpdateCounter);
+        _eventManager.OnGameStart.AddListener(Restart);
+
+        _inventory = GoldInventory.GetInventory();
     }
 
-    // Update is called once per frame
-    void Update()
+    void UpdateCounter()
     {
-        
+        _goldText.text = _inventory.GetGold().ToString();
+    }
+
+    void Restart()
+    {
+        _goldText.text = "0";
     }
 }

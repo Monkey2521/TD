@@ -6,7 +6,7 @@ public class GoldInventory : MonoBehaviour
     [SerializeField] bool _isDebug;
 
     [Header("Settings")]
-    [SerializeField][Range(0, 1000)] int _startGold;
+    [SerializeField][Range(0, 5000)] int _startGold;
     [SerializeField] int _goldCount;
 
     static GoldInventory _instance;
@@ -32,11 +32,13 @@ public class GoldInventory : MonoBehaviour
         _eventManager = EventManager.GetEventManager();
 
         _eventManager.OnGameStart.AddListener(Restart);
+        _eventManager.OnEnemyKilled.AddListener(AddGold);
     }
 
     void Restart()
     {
         _goldCount = _startGold;
+        _eventManager.OnInventoryUpdate?.Invoke();
     }
 
     public int GetGold() => _goldCount;
@@ -44,6 +46,12 @@ public class GoldInventory : MonoBehaviour
     public void AddGold(int count)
     {
         _goldCount += count;
+        _eventManager.OnInventoryUpdate?.Invoke();
+    }
+
+    void AddGold(EnemyController enemy)
+    {
+        _goldCount += enemy.GoldReward;
         _eventManager.OnInventoryUpdate?.Invoke();
     }
 

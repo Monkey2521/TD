@@ -13,6 +13,7 @@ public class EventManager : MonoBehaviour
 
     public UnityEvent<Buildplace> OnBuildplaceClick;
     public UnityEvent<Tower> OnTowerClick;
+    public UnityEvent<EnemyController> OnEnemyKilled;
 
     static EventManager _instance;
     public static EventManager GetEventManager() => _instance;
