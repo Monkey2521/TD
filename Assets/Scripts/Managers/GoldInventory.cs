@@ -6,7 +6,8 @@ public class GoldInventory : MonoBehaviour
     [SerializeField] bool _isDebug;
 
     [Header("Settings")]
-    int _goldCount;
+    [SerializeField][Range(0, 1000)] int _startGold;
+    [SerializeField] int _goldCount;
 
     static GoldInventory _instance;
     public static GoldInventory GetInventory() => _instance;
@@ -24,8 +25,18 @@ public class GoldInventory : MonoBehaviour
             if (_isDebug) Debug.Log("Inventory already created");
             Destroy(gameObject);
         }
+    }
 
+    void Start()
+    {
         _eventManager = EventManager.GetEventManager();
+
+        _eventManager.OnGameStart.AddListener(Restart);
+    }
+
+    void Restart()
+    {
+        _goldCount = _startGold;
     }
 
     public int GetGold() => _goldCount;

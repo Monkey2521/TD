@@ -18,8 +18,11 @@ public class Tower : ClickableObject
 
     [SerializeField] TowerStats _stats;
     public float AttackTime => _stats.AttackTime - _upgradeStatsPerLevel.AttackTime * (_level > 0 ? _level - 1 : 0);
+    public float UpperAttackTime => _stats.AttackTime - _upgradeStatsPerLevel.AttackTime * _level;
     public int Damage => _stats.BulletDamage + _upgradeStatsPerLevel.BulletDamage * (_level > 0 ? _level - 1 : 0);
+    public int UpperDamage => _stats.BulletDamage + _upgradeStatsPerLevel.BulletDamage * _level;
     public float AttackRange => _stats.AttackRange + _upgradeStatsPerLevel.AttackRange * (_level > 0 ? _level - 1 : 0);
+    public float UpperAttackRange => _stats.AttackRange + _upgradeStatsPerLevel.AttackRange * _level;
 
     [Space(5)]
     [SerializeField] SphereCollider _attackRangeCollider;

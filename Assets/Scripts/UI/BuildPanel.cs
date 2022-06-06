@@ -8,7 +8,9 @@ public class BuildPanel : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] Animator _animator;
-    [SerializeField] GameObject _upgradeMenu;
+
+    [Header("UpgradeMenu")]
+    [SerializeField] TowerUpgradeMenu _upgradeMenu;
 
     [Header("Buildings")]
     [SerializeField] GameObject _buildings;
@@ -81,14 +83,18 @@ public class BuildPanel : MonoBehaviour
         _animator.SetBool("Hide", true);
         _animator.SetBool("Show", false);
 
+        _buildplace = null;
+    }
+
+    public void DeactivateBuildPanels()
+    {
         _buildings.gameObject.SetActive(false);
         _upgradeMenu.gameObject.SetActive(false);
-
-        _buildplace = null;
     }
 
     void ShowBuildings()
     {
+        _upgradeMenu.gameObject.SetActive(false);
         _buildings.gameObject.SetActive(true);
 
         if (_previewList.Count < _towers.Count)
@@ -102,7 +108,7 @@ public class BuildPanel : MonoBehaviour
             foreach(Tower tower in _towers)
             {
                 TowerBuildPreview preview = Instantiate(_previewPrefab, _previewParent);
-                preview.SetText(tower.BuildCost, tower.Damage, tower.AttackRange, tower.AttackTime);
+                preview.Init(tower, this);
 
                 _previewList.Add(preview);
             }
@@ -112,6 +118,18 @@ public class BuildPanel : MonoBehaviour
 
     void ShowUpgradeMenu(Tower tower)
     {
+        _buildings.gameObject.SetActive(false);
         _upgradeMenu.gameObject.SetActive(true);
+
+        _upgradeMenu.Init(tower);
+    }
+
+    public void Build(Tower tower)
+    {
+        if (_buildplace != null && _buildplace.IsEmpty)
+        {
+            if (_buildplace.Build(tower))
+                ShowUpgradeMenu(_buildplace.Tower);
+        }
     }
 }
