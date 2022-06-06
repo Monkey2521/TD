@@ -3,7 +3,9 @@ using UnityEngine;
 public class ScoreCounter : MonoBehaviour
 {
     [SerializeField] UnityEngine.UI.Text _scoreText;
+   
     int _score;
+    public int Score => _score;
 
     EventManager _eventManager;
 
