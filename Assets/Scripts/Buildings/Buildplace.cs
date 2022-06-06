@@ -35,14 +35,19 @@ public class Buildplace : ClickableObject
         base.OnPointerClick(eventData);
 
         _eventManager.OnBuildplaceClick?.Invoke(this);
+    }
 
-        /*
-        if (_isEmpty && _inventory.RemoveGold(_towerPrefab.BuildCost))
+    public bool Build(Tower tower)
+    {
+        if (_isEmpty && _inventory.RemoveGold(tower.BuildCost))
         {
-           _tower = Instantiate(_towerPrefab, transform.position + Vector3.up, Quaternion.identity, transform);
+            _tower = Instantiate(_towerPrefab, transform.position + Vector3.up, Quaternion.identity, transform);
 
             _isEmpty = false;
+
+            return true;
         }
-        */
+
+        return false;
     }
 }

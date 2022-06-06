@@ -137,7 +137,8 @@ MonoBehaviour:
     _bulletDamage: 10
     _bulletSpeed: 2
     _attackTime: 3
-    _attackRange: 0
+    _attackRange: 6
+  _attackRangeCollider: {fileID: 7237725135284566372}
   _bulletPoolSize: 5
   _bulletPrefab: {fileID: 2324956328620741907, guid: e875d70bf97df954c836abc5bdd6d927, type: 3}
   _maxLevel: 10
@@ -147,4 +148,4 @@ MonoBehaviour:
     _bulletDamage: 5
     _bulletSpeed: 1
     _attackTime: 0.25
-    _attackRange: 0
+    _attackRange: 0.2

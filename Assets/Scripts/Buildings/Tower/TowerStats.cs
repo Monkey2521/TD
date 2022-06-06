@@ -12,7 +12,7 @@ public class TowerStats
     [SerializeField][Range(0.1f, 5f)] float _attackTime;
     public float AttackTime => _attackTime;
 
-    [SerializeField][Range(0.1f, 5f)] float _attackRange;
+    [SerializeField][Range(0.1f, 10f)] float _attackRange;
     public float AttackRange => _attackRange;
 
     public static TowerStats operator +(TowerStats first, TowerStats other)

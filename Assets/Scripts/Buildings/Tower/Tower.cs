@@ -1,16 +1,29 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Tower : ClickableObject
 {
+    bool _canAttack;
+
+    IDamageable _target;
+    public IDamageable Target => _target;
+
     [Header("Settings")]
     [SerializeField][Range(10, 50)] int _buildCost;
     public int BuildCost => _buildCost;
 
+    int _level = 1;
+
     [SerializeField] TowerStats _stats;
+    public float AttackTime => _stats.AttackTime - _upgradeStatsPerLevel.AttackTime * (_level > 0 ? _level - 1 : 0);
+    public int Damage => _stats.BulletDamage + _upgradeStatsPerLevel.BulletDamage * (_level > 0 ? _level - 1 : 0);
+    public float AttackRange => _stats.AttackRange + _upgradeStatsPerLevel.AttackRange * (_level > 0 ? _level - 1 : 0);
 
     [Space(5)]
+    [SerializeField] SphereCollider _attackRangeCollider;
+
     [SerializeField] int _bulletPoolSize;
     [SerializeField] TowerBullet _bulletPrefab;
 
@@ -19,13 +32,12 @@ public class Tower : ClickableObject
 
     [Header("Upgrade settings")]
     [SerializeField][Range(1, 20)] int _maxLevel;
-    int _level;
     public int MaxLevel => _maxLevel;
     public int Level => _level;
 
     [SerializeField][Range(5, 50)] int _upgradeCost;
     [SerializeField][Range(5, 50)] int _additionalCost;
-    public int UpgradeCost => _upgradeCost + _additionalCost * (_level - 1);
+    public int UpgradeCost => _upgradeCost + _additionalCost * (_level > 0 ? _level - 1 : 0);
 
     [SerializeField] TowerStats _upgradeStatsPerLevel;
 
@@ -49,6 +61,9 @@ public class Tower : ClickableObject
 
             _bulletsPool.Add(bullet);
         }
+
+        _attackRangeCollider.radius = _stats.AttackRange;
+        _canAttack = true;
     }
 
     public void AddToPool(TowerBullet bullet)
@@ -82,20 +97,37 @@ public class Tower : ClickableObject
     {
         base.OnPointerClick(eventData);
 
-        if (Upgrade())
-        {
-            _level++;
-            if (_isDebug) Debug.Log("Upgrade tower, level = " + Level);
-        }
+        _eventManager.OnTowerClick?.Invoke(this);
     }
 
-    bool Upgrade ()
+    public bool Upgrade ()
     {
-        return (_level < _maxLevel && _inventory.RemoveGold(UpgradeCost));
+        if (_level < _maxLevel && _inventory.RemoveGold(UpgradeCost))
+        {
+            _level++;
+
+            _attackRangeCollider.radius += _upgradeStatsPerLevel.AttackRange;
+
+            if (_isDebug) Debug.Log("Upgrade tower, level = " + Level);
+            
+            return true;
+        }
+
+        return false;
+
+    }
+
+    async void WaitForAttack() 
+    {
+        await Task.Delay((int)(AttackTime * 1000));
+
+        _canAttack = true;
     }
 
     void Attack(IDamageable target)
     {
+        if (!_canAttack) return;
+
         TowerBullet bullet;
 
         if (_bulletsPool.Count == 0)
@@ -118,11 +150,26 @@ public class Tower : ClickableObject
         _moveSystem.AddMoveable(bullet);
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other is IDamageable && other.tag == "Enemy")
+        if (other is IDamageable && other.tag == "Enemy" && _target == null)
         {
-            Attack(other as IDamageable);
+            _target = other as IDamageable;
+
+            Attack(_target);
         }
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (other as IDamageable == _target)
+        {
+            Attack(_target);
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other as IDamageable == _target) _target = null;
     }
 }
