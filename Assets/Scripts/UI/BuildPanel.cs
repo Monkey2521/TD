@@ -8,6 +8,8 @@ public class BuildPanel : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] Animator _animator;
+    [SerializeField] GameObject _selectedLinePrefab;
+    GameObject _line;
 
     [Header("UpgradeMenu")]
     [SerializeField] TowerUpgradeMenu _upgradeMenu;
@@ -31,21 +33,28 @@ public class BuildPanel : MonoBehaviour
         _eventManager.OnBuildplaceClick.AddListener(Init);
         _eventManager.OnTowerClick.AddListener(Init);
         _eventManager.OnGameOver.AddListener(HideBuilds);
+        
+        _line = Instantiate(_selectedLinePrefab);
+        _line.SetActive(false);
     }
 
     void Init(Buildplace buildplace)
     {
         Init(buildplace, null);
+        _line.transform.position = buildplace.transform.position + Vector3.up * 0.6f;
     }
 
     void Init(Tower tower)
     {
         Init(null, tower);
+        _line.transform.position = tower.Buildplace.transform.position + Vector3.up * 0.6f;
     }
 
     void Init(Buildplace buildplace, Tower tower)
     {
         if (_isDebug) Debug.Log("Init");
+
+        _line.SetActive(true);
 
         if (!_animator.GetBool("Show"))
         {
@@ -80,6 +89,7 @@ public class BuildPanel : MonoBehaviour
 
     public void HideBuilds()
     {
+        _line.SetActive(false);
         _animator.SetBool("Hide", true);
         _animator.SetBool("Show", false);
 

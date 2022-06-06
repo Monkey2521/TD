@@ -42,7 +42,7 @@ public class Buildplace : ClickableObject
         if (_isEmpty && _inventory.RemoveGold(tower.BuildCost))
         {
             _tower = Instantiate(_towerPrefab, transform.position + Vector3.up, Quaternion.identity, transform);
-            _tower.Init();
+            _tower.Init(this);
 
             _isEmpty = false;
 

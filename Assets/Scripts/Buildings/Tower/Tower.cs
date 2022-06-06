@@ -48,8 +48,12 @@ public class Tower : ClickableObject
     GoldInventory _inventory;
     MoveSystem _moveSystem;
 
-    public void Init()
+    public Buildplace Buildplace;
+
+    public void Init(Buildplace buildplace)
     {
+        this.Buildplace = buildplace;
+
         _eventManager = EventManager.GetEventManager();
         _inventory = GoldInventory.GetInventory();
 

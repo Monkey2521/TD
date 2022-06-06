@@ -25365,6 +25365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isDebug: 1
   _animator: {fileID: 672774634}
+  _selectedLinePrefab: {fileID: 7486306933194532849, guid: 436d0e7da61cb67419f4c665f9964b6f, type: 3}
   _upgradeMenu: {fileID: 426075438}
   _buildings: {fileID: 1278373635}
   _previewParent: {fileID: 861550046}
