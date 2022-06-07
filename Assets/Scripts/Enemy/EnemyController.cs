@@ -1,9 +1,16 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class EnemyController : MonoBehaviour, IDamageable, IMoveable
+public class EnemyController : ClickableObject, IDamageable, IMoveable, IPrioritable
 {
-    [Header("Debug settings")]
-    bool _isDebug;
+    bool _isPriorityTarget;
+    public bool IsPriorityTarget {
+        get => _isPriorityTarget;
+        set => _isPriorityTarget = value;
+    }
+
+    static EnemyController _priorityTarget;
+    [SerializeField] GameObject _priorityMarker;
 
     [Header("Settings")]
     [SerializeField] EnemyStats _stats;
@@ -71,5 +78,25 @@ public class EnemyController : MonoBehaviour, IDamageable, IMoveable
     public void Move()
     {
 
+    }
+    
+    public void SetPriority()
+    {
+
+    }
+
+    public override void OnPointerClick(PointerEventData eventData)
+    {
+        base.OnPointerClick(eventData);
+
+        if (_priorityTarget != null)
+        {
+            _priorityTarget.IsPriorityTarget = false;
+            _priorityTarget.SetPriority();
+        }
+
+        _priorityTarget = this;
+        _isPriorityTarget = true;
+        SetPriority();
     }
 }

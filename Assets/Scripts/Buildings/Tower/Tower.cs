@@ -48,7 +48,7 @@ public class Tower : ClickableObject
     GoldInventory _inventory;
     MoveSystem _moveSystem;
 
-    public Buildplace Buildplace;
+    [HideInInspector] public Buildplace Buildplace;
 
     public void Init(Buildplace buildplace)
     {
@@ -155,11 +155,20 @@ public class Tower : ClickableObject
         bullet.Attack(target);
 
         _moveSystem.AddMoveable(bullet);
+
+        WaitForAttack();
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other is IDamageable && other.tag == "Enemy" && _target == null)
+        if (other is IPrioritable && (other as IPrioritable).IsPriorityTarget)
+        {
+            _target = other as IDamageable;
+
+            Attack(_target);
+
+        }
+        else if (other is IDamageable && other.tag == "Enemy" && _target == null)
         {
             _target = other as IDamageable;
 
