@@ -30,7 +30,7 @@ public class HealthBar : MonoBehaviour
 
         float multiplier = (float)_parent.HP / (float)_parent.MaxHP;
 
-        for (int i = 0; i < (int)(_symbCount * multiplier); i++)
+        for (int i = 0; i < (int)Mathf.Round(_symbCount * multiplier); i++)
             _healthText.text += _symbol;
     }
 }

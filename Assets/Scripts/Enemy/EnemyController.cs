@@ -1,18 +1,36 @@
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.EventSystems;
 
-public class EnemyController : ClickableObject, IDamageable, IMoveable, IPrioritable
+public class EnemyController : ClickableObject, IDamageable, IPrioritable
 {
-    bool _isPriorityTarget;
+    [SerializeField] bool _isPriorityTarget;
     public bool IsPriorityTarget {
         get => _isPriorityTarget;
         set => _isPriorityTarget = value;
     }
 
     static EnemyController _priorityTarget;
-    [SerializeField] GameObject _priorityMarker;
 
     [Header("Settings")]
+    [SerializeField] NavMeshAgent _navAgent;
+    [SerializeField] GameObject _priorityMarker;
+
+    [SerializeField] Rigidbody _rigidbody;
+
+    [SerializeField] EnemyTypes _enemyType;
+    public EnemyTypes Type => _enemyType;
+
+    [SerializeField] HealthBar _health;
+    public HealthBar Health => _health;
+
+    [Space(5)]
+    [SerializeField] int _scorePoints;
+    public int ScorePoints => _scorePoints;
+    [SerializeField] int _goldReward;
+    public int GoldReward => _goldReward;
+
+    [Header("Stats settings")]
     [SerializeField] EnemyStats _stats;
     public int Damage => _stats.Damage;
     public float Speed => _stats.Speed;
@@ -22,20 +40,13 @@ public class EnemyController : ClickableObject, IDamageable, IMoveable, IPriorit
     public int HP => _hp;
     public int MaxHP => _maxHP;
 
-    [SerializeField] HealthBar _health;
-    public HealthBar Health => _health;
-    [Space(5)]
-    [SerializeField] int _scorePoints;
-    public int ScorePoints => _scorePoints;
-    [SerializeField] int _goldReward;
-    public int GoldReward => _goldReward;
-
     EnemySpawner _spawner;
     EventManager _eventManager;
 
     public void Init(EnemySpawner spawner)
     {
         _spawner = spawner;
+        _health.Init(this);
 
         _hp = _maxHP;
         _health.UpdateHealth();
@@ -45,18 +56,33 @@ public class EnemyController : ClickableObject, IDamageable, IMoveable, IPriorit
             _eventManager = EventManager.GetEventManager();
             _eventManager.OnGameOver.AddListener(ReturnToPool);
         }
+
+        _priorityMarker = Instantiate(_priorityMarker, transform.position + Vector3.up, Quaternion.identity, transform);
+        _priorityMarker.SetActive(false);
+
+        _navAgent.speed = Speed;
     }
 
     public void ReturnToPool()
     {
         gameObject.SetActive(false);
+        _spawner.AddToPool(this);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other is IDamageable && other.tag == "Player")
+        if (other.tag == "Player")
         {
-            (other as IDamageable).TakeDamage(Damage);
+            other.GetComponent<Castle>().TakeDamage(Damage);
+            
+            if (_isPriorityTarget)
+            {
+                _priorityTarget = null;
+                _isPriorityTarget = false;
+                SetPriority();
+            }
+
+            ReturnToPool();
         }
     }
 
@@ -75,14 +101,14 @@ public class EnemyController : ClickableObject, IDamageable, IMoveable, IPriorit
 
     public Transform GetTransform() => transform;
 
-    public void Move()
+    public void SetNavTarget(Vector3 targetPosition)
     {
-
+        _navAgent.destination = targetPosition;
     }
     
     public void SetPriority()
     {
-
+        _priorityMarker.SetActive(_isPriorityTarget);
     }
 
     public override void OnPointerClick(PointerEventData eventData)
@@ -99,4 +125,6 @@ public class EnemyController : ClickableObject, IDamageable, IMoveable, IPriorit
         _isPriorityTarget = true;
         SetPriority();
     }
+
+
 }

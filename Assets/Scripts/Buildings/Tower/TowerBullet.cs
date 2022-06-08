@@ -21,6 +21,12 @@ public class TowerBullet : MonoBehaviour, IMoveable
         gameObject.SetActive(false);
     }
 
+    public void Upgrade(float speed, int damage)
+    {
+        _speed += speed;
+        _damage += damage;
+    }
+
     public void Attack(IDamageable target)
     {
         gameObject.SetActive(true);
@@ -41,6 +47,7 @@ public class TowerBullet : MonoBehaviour, IMoveable
         if (other.transform == _targetTransform)
         {
             _target.TakeDamage(_damage);
+            ReturnToPool();
         }
     }
 

@@ -1,10 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TowerUpgradeMenu : MonoBehaviour
 {
+    [Header("Settings")]
+    [SerializeField] Text _towerName;
+    [SerializeField] Image _towerIcon;
+
     [Header("Upgrade menu")]
     [SerializeField] GameObject _upgradeMenu;
-    [SerializeField] UnityEngine.UI.Text _upgradeCost;
+    [SerializeField] Text _upgradeCost;
 
     [SerializeField] TowerUpgradeStat _upgradeAttackRange;
     [SerializeField] TowerUpgradeStat _upgradeAttackTime;
@@ -23,6 +28,9 @@ public class TowerUpgradeMenu : MonoBehaviour
         _tower = tower;
         _upgradeMenu.SetActive(false);
         _maxLevelMenu.SetActive(false);
+
+        _towerName.text = _tower.Name;
+        _towerIcon.sprite = _tower.Icon;
         
         if (_tower.Level == _tower.MaxLevel)
         {

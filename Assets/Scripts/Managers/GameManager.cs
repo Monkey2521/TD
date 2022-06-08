@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] Castle _castle;
+    public Castle Castle => _castle;
+
+    [Space(5)]
     [SerializeField] GameObject _mainMenu;
 
     [SerializeField] GameObject _HUD;
@@ -17,11 +21,25 @@ public class GameManager : MonoBehaviour
 
     EventManager _eventManager;
 
+    static GameManager _instance;
+    public static GameManager GetGameManager() => _instance;
+
     void Start ()
     {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         _eventManager = EventManager.GetEventManager();
 
         _eventManager.OnGameOver.AddListener(ShowGameOver);
+
+        _HUD.SetActive(false);
     }
 
     [ContextMenu("Restart")]

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3781188002586744904}
   - component: {fileID: 4200569042872560705}
   - component: {fileID: 702141744586162133}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Eye (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7027025673526423596}
   - component: {fileID: 131255773065243372}
   - component: {fileID: 7574365767299028567}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 1771110096745802728}
   - component: {fileID: 4870253604690207046}
   - component: {fileID: 3527614327242628119}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 5158760187873583557}
   - component: {fileID: 5152445847695375441}
   - component: {fileID: 7454874914020549598}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Feet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 7439061326933515892}
   m_Layer: 0
   m_Name: BossMonster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,7 +362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6075466087700452988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.965065, y: 27.444242, z: -46.61458}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -487,15 +487,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70072dba999555441a3edb7e3f3e5dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isDebug: 0
-  _priorityMarker: {fileID: 0}
-  _stats:
-    _damage: 25
-    _speed: 5
-  _maxHP: 150
+  _isDebug: 1
+  _navAgent: {fileID: 2732620042452740422}
+  _priorityMarker: {fileID: 2408335697672366270, guid: 1ae244137a92dfe46a3275466d12c7e0, type: 3}
+  _rigidbody: {fileID: 4795401939074400638}
+  _enemyType: 1
   _health: {fileID: 598230741204394010}
   _scorePoints: 10
   _goldReward: 30
+  _stats:
+    _damage: 25
+    _speed: 3.5
+  _maxHP: 150
 --- !u!1 &6427784261106311161
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +511,7 @@ GameObject:
   - component: {fileID: 4198910130274713442}
   - component: {fileID: 7746587960775858262}
   - component: {fileID: 598230741204394010}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,6 +611,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isDebug: 0
   _healthText: {fileID: 7746587960775858262}
-  _color: {r: 1, g: 0, b: 0, a: 0}
+  _color: {r: 1, g: 0, b: 0, a: 1}
   _symbol: 45
   _symbCount: 4

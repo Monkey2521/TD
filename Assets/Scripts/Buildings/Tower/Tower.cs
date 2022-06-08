@@ -11,6 +11,12 @@ public class Tower : ClickableObject
     public IDamageable Target => _target;
 
     [Header("Settings")]
+    [SerializeField] string _name;
+    [SerializeField] Sprite _icon;
+    public string Name => _name;
+    public Sprite Icon => _icon;
+
+    [Header("Stats settings")]
     [SerializeField][Range(10, 50)] int _buildCost;
     public int BuildCost => _buildCost;
 
@@ -115,6 +121,15 @@ public class Tower : ClickableObject
 
             _attackRangeCollider.radius += _upgradeStatsPerLevel.AttackRange;
 
+            foreach (TowerBullet bullet in _bullets)
+            {
+                bullet.Upgrade(_upgradeStatsPerLevel.BulletSpeed, _upgradeStatsPerLevel.BulletDamage);
+            }
+            foreach (TowerBullet bullet in _bulletsPool)
+            {
+                bullet.Upgrade(_upgradeStatsPerLevel.BulletSpeed, _upgradeStatsPerLevel.BulletDamage);
+            }
+
             if (_isDebug) Debug.Log("Upgrade tower, level = " + Level);
             
             return true;
@@ -156,21 +171,30 @@ public class Tower : ClickableObject
 
         _moveSystem.AddMoveable(bullet);
 
+        _canAttack = false;
         WaitForAttack();
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other is IPrioritable && (other as IPrioritable).IsPriorityTarget)
+        EnemyController enemy;
+
+        if (other.tag == "Enemy")
         {
-            _target = other as IDamageable;
+            enemy = other.GetComponent<EnemyController>();
+        }
+        else return;
+
+        if (enemy.IsPriorityTarget)
+        {
+            _target = enemy;
 
             Attack(_target);
 
         }
-        else if (other is IDamageable && other.tag == "Enemy" && _target == null)
+        else if (_target == null)
         {
-            _target = other as IDamageable;
+            _target = enemy;
 
             Attack(_target);
         }
@@ -178,7 +202,20 @@ public class Tower : ClickableObject
 
     void OnTriggerStay(Collider other)
     {
-        if (other as IDamageable == _target)
+        EnemyController enemy;
+
+        if (other.tag == "Enemy")
+        {
+            enemy = other.GetComponent<EnemyController>();
+        }
+        else return;
+        
+        if (enemy.IsPriorityTarget)
+        {
+            _target = enemy;
+            Attack(_target);
+        }
+        else if (enemy as IDamageable == _target)
         {
             Attack(_target);
         }
@@ -186,6 +223,14 @@ public class Tower : ClickableObject
 
     void OnTriggerExit(Collider other)
     {
-        if (other as IDamageable == _target) _target = null;
+        EnemyController enemy;
+
+        if (other.tag == "Enemy")
+        {
+            enemy = other.GetComponent<EnemyController>();
+        }
+        else return;
+
+        if (enemy as IDamageable == _target) _target = null;
     }
 }
