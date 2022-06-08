@@ -3,10 +3,10 @@ using UnityEngine;
 [System.Serializable]
 public class TowerStats
 {
-    [SerializeField][Range(5, 30)] int _bulletDamage;
+    [SerializeField][Range(1, 30)] int _bulletDamage;
     public int BulletDamage => _bulletDamage;
 
-    [SerializeField][Range(0.5f, 5f)] float _bulletSpeed;
+    [SerializeField][Range(0.001f, 5f)] float _bulletSpeed;
     public float BulletSpeed => _bulletSpeed;
 
     [SerializeField][Range(0.1f, 5f)] float _attackTime;

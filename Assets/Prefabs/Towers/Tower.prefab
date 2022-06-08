@@ -63,7 +63,7 @@ MonoBehaviour:
   _upgradeCost: 25
   _additionalCost: 15
   _upgradeStatsPerLevel:
-    _bulletDamage: 5
+    _bulletDamage: 1
     _bulletSpeed: 1
     _attackTime: 0.25
     _attackRange: 0.2

@@ -223,6 +223,7 @@ public class Tower : ClickableObject
 
     void OnTriggerExit(Collider other)
     {
+        Debug.Log(111);
         EnemyController enemy;
 
         if (other.tag == "Enemy")
@@ -230,7 +231,7 @@ public class Tower : ClickableObject
             enemy = other.GetComponent<EnemyController>();
         }
         else return;
-
+        Debug.Log(enemy as IDamageable == _target);
         if (enemy as IDamageable == _target) _target = null;
     }
 }

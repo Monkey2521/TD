@@ -488,6 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
+  _isPriorityTarget: 0
   _navAgent: {fileID: 2732620042452740422}
   _priorityMarker: {fileID: 2408335697672366270, guid: 1ae244137a92dfe46a3275466d12c7e0, type: 3}
   _rigidbody: {fileID: 4795401939074400638}
@@ -497,7 +498,7 @@ MonoBehaviour:
   _goldReward: 10
   _stats:
     _damage: 7
-    _speed: 5
+    _speed: 4
   _maxHP: 50
 --- !u!1 &6427784261106311161
 GameObject:
