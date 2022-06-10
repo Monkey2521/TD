@@ -1128,6 +1128,7 @@ MonoBehaviour:
   _damage: {fileID: 4687566602864002654}
   _attackRange: {fileID: 1994092728218294596}
   _attackTime: {fileID: 8088992139680863838}
+  _icon: {fileID: 1052509040190782124}
 --- !u!1 &6202372593075131533
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class TowerBuildPreview : MonoBehaviour
     [SerializeField] Text _damage;
     [SerializeField] Text _attackRange;
     [SerializeField] Text _attackTime;
+    [SerializeField] Image _icon;
 
     Tower _tower;
     BuildPanel _builder;
@@ -17,6 +18,7 @@ public class TowerBuildPreview : MonoBehaviour
         _damage.text = tower.Damage.ToString();
         _attackRange.text = tower.AttackRange.ToString();
         _attackTime.text = tower.AttackTime.ToString();
+        _icon.sprite = tower.Icon;
 
         _tower = tower;
         _builder = builder;

@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isDebug: 0
   _name: Base tower
-  _icon: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 437527c5683b5c84db4b7094d1aea267, type: 3}
   _upgradeParticle: {fileID: 6497793248253281760}
   _attackRangeLine: {fileID: 6832617776413088068}
   _emptyRange: {fileID: 2100000, guid: df94de97fa394464f8a7389278276b8b, type: 2}
