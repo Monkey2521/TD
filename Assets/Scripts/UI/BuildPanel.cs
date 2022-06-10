@@ -93,6 +93,7 @@ public class BuildPanel : MonoBehaviour
         _animator.SetBool("Hide", true);
         _animator.SetBool("Show", false);
 
+        _buildplace.ChangeTowerRange();
         _buildplace = null;
     }
 
@@ -141,6 +142,14 @@ public class BuildPanel : MonoBehaviour
             if (_buildplace.Build(tower))
                 ShowUpgradeMenu(_buildplace.Tower);
             else if (_isDebug) Debug.Log("Cant build " + tower.Name);
+        }
+    }
+
+    public void ShowRangePreview(Tower tower)
+    {
+        if (_buildplace != null)
+        {
+            
         }
     }
 }

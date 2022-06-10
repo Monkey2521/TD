@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static UnityEngine.Mathf;
 
 public class Tower : ClickableObject
 {
@@ -17,6 +18,13 @@ public class Tower : ClickableObject
     public Sprite Icon => _icon;
 
     [SerializeField] ParticleSystem _upgradeParticle;
+
+    [SerializeField] LineRenderer _attackRangeLine;
+    [SerializeField] Material _emptyRange;
+    [SerializeField] Material _onEnemyRange;
+    bool _onEnemyInRange;
+
+    public readonly int MAX_LINE_POSITIONS_COUNT = 360;
 
     [Header("Stats settings")]
     [SerializeField][Range(10, 50)] int _buildCost;
@@ -81,6 +89,31 @@ public class Tower : ClickableObject
 
         _attackRangeCollider.radius = _stats.AttackRange;
         _canAttack = true;
+
+        _attackRangeLine.loop = true;
+        _attackRangeLine.positionCount = MAX_LINE_POSITIONS_COUNT;
+
+        InitRange();
+
+        _attackRangeLine.enabled = false;
+    }
+
+    void InitRange()
+    {
+        for (int i = 0; i < MAX_LINE_POSITIONS_COUNT; i++)
+        {
+            _attackRangeLine.SetPosition(i, new Vector3(Cos(Deg2Rad * i) * AttackRange, 0f, Sin(Deg2Rad * i) * AttackRange));
+        }
+    }
+
+    public void ChangeRange()
+    {
+        _attackRangeLine.enabled = !_attackRangeLine.enabled;
+    }
+
+    void SetRangeMaterial()
+    {
+        _attackRangeLine.material = _onEnemyInRange ? _onEnemyRange : _emptyRange;
     }
 
     public void AddToPool(TowerBullet bullet)
@@ -111,6 +144,9 @@ public class Tower : ClickableObject
         {
             ReturnAllToPool();
             _target = null;
+
+            _onEnemyInRange = false;
+            SetRangeMaterial();
         }
     }
 
@@ -144,6 +180,8 @@ public class Tower : ClickableObject
             }
 
             _upgradeParticle.Play();
+
+            InitRange();
 
             if (_isDebug) Debug.Log("Upgrade tower, level = " + Level);
             
@@ -197,6 +235,8 @@ public class Tower : ClickableObject
         if (other.tag == "Enemy")
         {
             enemy = other.GetComponent<EnemyController>();
+            _onEnemyInRange = true;
+            SetRangeMaterial();
         }
         else return;
 
@@ -222,6 +262,8 @@ public class Tower : ClickableObject
         if (other.tag == "Enemy")
         {
             enemy = other.GetComponent<EnemyController>();
+            _onEnemyInRange = true;
+            SetRangeMaterial();
         }
         else return;
         
@@ -248,6 +290,8 @@ public class Tower : ClickableObject
         if (other.tag == "Enemy")
         {
             enemy = other.GetComponent<EnemyController>();
+            _onEnemyInRange = false;
+            SetRangeMaterial();
         }
         else return;
 
