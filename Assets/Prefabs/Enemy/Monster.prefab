@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3781188002586744904}
   - component: {fileID: 4200569042872560705}
   - component: {fileID: 702141744586162133}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Eye (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7027025673526423596}
   - component: {fileID: 131255773065243372}
   - component: {fileID: 7574365767299028567}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 1771110096745802728}
   - component: {fileID: 4870253604690207046}
   - component: {fileID: 3527614327242628119}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 5158760187873583557}
   - component: {fileID: 5152445847695375441}
   - component: {fileID: 7454874914020549598}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: Feet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 4795401939074400638}
   - component: {fileID: 2732620042452740422}
   - component: {fileID: 7439061326933515892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Monster
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 4198910130274713442}
   - component: {fileID: 7746587960775858262}
   - component: {fileID: 598230741204394010}
-  m_Layer: 2
+  m_Layer: 3
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -139,6 +139,12 @@ public class EnemySpawner : MonoBehaviour
         if (enemy == null)
         {
             index = IndexOfEnemyType(EnemyTypes.Normal);
+            
+            if (index == -1)
+            {
+                WaitForPool();
+                return;
+            }
 
             enemy = _enemiesPool[index][0];
 
