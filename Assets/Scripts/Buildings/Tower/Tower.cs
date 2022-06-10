@@ -96,6 +96,9 @@ public class Tower : ClickableObject
         InitRange();
 
         _attackRangeLine.enabled = false;
+
+        _upgradeParticle.maxParticles = 1;
+        PlayParticle();
     }
 
     void InitRange()
@@ -181,7 +184,8 @@ public class Tower : ClickableObject
                 bullet.Upgrade(_upgradeStatsPerLevel.BulletSpeed, _upgradeStatsPerLevel.BulletDamage);
             }
 
-            _upgradeParticle.Play();
+            PlayParticle();
+            _upgradeParticle.maxParticles++;
 
             InitRange();
 
@@ -192,6 +196,11 @@ public class Tower : ClickableObject
 
         return false;
 
+    }
+
+    public void PlayParticle()
+    {
+        _upgradeParticle.Play();
     }
 
     async void WaitForAttack() 
