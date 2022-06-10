@@ -33,4 +33,9 @@ public class HealthBar : MonoBehaviour
         for (int i = 0; i < (int)Mathf.Round(_symbCount * multiplier); i++)
             _healthText.text += _symbol;
     }
+
+    public void RotateToCamera()
+    {
+        transform.forward = Camera.main.transform.forward;
+    }
 }

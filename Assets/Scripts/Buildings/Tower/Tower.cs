@@ -16,6 +16,8 @@ public class Tower : ClickableObject
     public string Name => _name;
     public Sprite Icon => _icon;
 
+    [SerializeField] ParticleSystem _upgradeParticle;
+
     [Header("Stats settings")]
     [SerializeField][Range(10, 50)] int _buildCost;
     public int BuildCost => _buildCost;
@@ -61,9 +63,11 @@ public class Tower : ClickableObject
         this.Buildplace = buildplace;
 
         _eventManager = EventManager.GetEventManager();
-        _inventory = GoldInventory.GetInventory();
-
         _eventManager.OnGameOver.AddListener(OnGameOver);
+        _eventManager.OnEnemyKilled.AddListener(CheckEnemy);
+        _eventManager.OnEnemyReturnToPool.AddListener(CheckEnemy);
+
+        _inventory = GoldInventory.GetInventory();
 
         _moveSystem = MoveSystem.GetMoveSystem();
 
@@ -95,9 +99,18 @@ public class Tower : ClickableObject
 
     void ReturnAllToPool()
     {
-        foreach(TowerBullet bullet in _bullets)
+        while(_bullets.Count > 0)
         {
-            bullet.ReturnToPool();
+            _bullets[0].ReturnToPool();
+        }
+    }
+
+    void CheckEnemy(EnemyController enemy)
+    {
+        if (enemy as IDamageable == _target)
+        {
+            ReturnAllToPool();
+            _target = null;
         }
     }
 
@@ -129,6 +142,8 @@ public class Tower : ClickableObject
             {
                 bullet.Upgrade(_upgradeStatsPerLevel.BulletSpeed, _upgradeStatsPerLevel.BulletDamage);
             }
+
+            _upgradeParticle.Play();
 
             if (_isDebug) Debug.Log("Upgrade tower, level = " + Level);
             
@@ -215,6 +230,11 @@ public class Tower : ClickableObject
             _target = enemy;
             Attack(_target);
         }
+        else if (_target == null)
+        {
+            _target = enemy;
+            Attack(enemy);
+        }
         else if (enemy as IDamageable == _target)
         {
             Attack(_target);
@@ -223,7 +243,6 @@ public class Tower : ClickableObject
 
     void OnTriggerExit(Collider other)
     {
-        Debug.Log(111);
         EnemyController enemy;
 
         if (other.tag == "Enemy")
@@ -231,7 +250,7 @@ public class Tower : ClickableObject
             enemy = other.GetComponent<EnemyController>();
         }
         else return;
-        Debug.Log(enemy as IDamageable == _target);
+
         if (enemy as IDamageable == _target) _target = null;
     }
 }

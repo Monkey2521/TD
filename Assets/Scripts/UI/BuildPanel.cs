@@ -140,6 +140,7 @@ public class BuildPanel : MonoBehaviour
         {
             if (_buildplace.Build(tower))
                 ShowUpgradeMenu(_buildplace.Tower);
+            else if (_isDebug) Debug.Log("Cant build " + tower.Name);
         }
     }
 }

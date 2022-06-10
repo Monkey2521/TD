@@ -12,6 +12,10 @@ public class EnemySpawner : MonoBehaviour
     List<List<EnemyController>> _enemiesPool = new List<List<EnemyController>>();
     List<List<EnemyController>> _enemies = new List<List<EnemyController>>();
 
+    int _spawnStep;
+    int _nextStep;
+    int _maxSpawnStep;
+
     [SerializeField][Range(0.001f, 10f)] float _spawnTime;
     [SerializeField] Image _changeSpawnButton;
     [SerializeField] Sprite _onSpawningSprite;
@@ -52,9 +56,12 @@ public class EnemySpawner : MonoBehaviour
 
             _enemiesPool.Add(enemies);
             _enemies.Add(new List<EnemyController>());
+
+            if (enemyType.SpawnStep > _maxSpawnStep) _maxSpawnStep = enemyType.SpawnStep;
         }
 
         _changeSpawnButton.sprite = _onPausedSprite;
+        _spawnStep = 1;
     }
 
     void ReturnAllToPool()
@@ -70,7 +77,10 @@ public class EnemySpawner : MonoBehaviour
     {
         enemy.transform.position = transform.position;
 
-        int index = IndexOfEnemyType(enemy);
+        _moveSystem.RemoveMoveable(enemy);
+
+        int index = IndexOfEnemyType(enemy.Type);
+        
         if (index == -1)
         {
             if (_isDebug) Debug.Log("Enemy not found!");
@@ -105,15 +115,43 @@ public class EnemySpawner : MonoBehaviour
     {
         if (!_isSpawning) return;
 
-        EnemyController enemy;
+        EnemyController enemy = null;
+        int index = 0;
 
-        enemy = _enemiesPool[0][0];
+        foreach(EnemyType enemyType in _enemiesPrefabs)
+        {
+            if (_spawnStep == enemyType.SpawnStep)
+            {
+                enemy = _enemiesPool[index][0];
 
-        enemy.gameObject.SetActive(true);
-        _enemies[0].Add(enemy);
-        _enemiesPool[0].Remove(enemy);
+                enemy.gameObject.SetActive(true);
+                _enemies[index].Add(enemy);
+                _enemiesPool[index].Remove(enemy);
 
-        enemy.SetNavTarget(_gameManager.Castle.GetTransform().position);
+                enemy.SetNavTarget(_gameManager.Castle.GetTransform().position);
+
+                break;
+            }
+
+            index++;
+        }
+        
+        if (enemy == null)
+        {
+            index = IndexOfEnemyType(EnemyTypes.Normal);
+
+            enemy = _enemiesPool[index][0];
+
+            enemy.gameObject.SetActive(true);
+            _enemies[index].Add(enemy);
+            _enemiesPool[index].Remove(enemy);
+
+            enemy.SetNavTarget(_gameManager.Castle.GetTransform().position);
+        }
+
+        _moveSystem.AddMoveable(enemy);
+
+        _spawnStep = _spawnStep == _maxSpawnStep ? 1 : _spawnStep + 1;
 
         WaitForPool();
     }
@@ -124,13 +162,13 @@ public class EnemySpawner : MonoBehaviour
         PoolEnemy();
     }
 
-    int IndexOfEnemyType(EnemyController enemy)
+    int IndexOfEnemyType(EnemyTypes type)
     {
         int index = 0;
 
         foreach(EnemyType enemies in _enemiesPrefabs)
         {
-            if (enemies.Enemy.Type == enemy.Type)
+            if (enemies.Enemy.Type == type)
                 return index;
             index++;
         }

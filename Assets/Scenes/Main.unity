@@ -234,7 +234,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &9165783
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +345,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &13473709
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &18351268
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +700,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &23333639
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &24900181
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +922,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &27957612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,7 +1033,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &28518043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &30035727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &31018539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,7 +1366,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &32761415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,7 +1477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &37817186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1588,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &37830011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,7 +1699,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &37967638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,7 +1810,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &38755367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1935,7 +1921,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &42519032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,7 +2032,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &48393668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,7 +2143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &53480888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,7 +2254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &56066478
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,7 +2365,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &57947057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2495,7 +2476,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &60112688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,7 +2587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &60896613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,7 +2698,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &62013106
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,7 +2809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &65917152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &73846568
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,7 +3132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &75843160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,7 +3243,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &75903467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,7 +3354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &86586087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,7 +3465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &89573867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,7 +3576,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &98600411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3716,7 +3687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &106119969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3828,7 +3798,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &106292330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3940,7 +3909,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &114320964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4052,7 +4020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &121114635
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,7 +4208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &129696734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4353,7 +4319,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!224 &130359566 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8615568350465300954, guid: fa76366e90860d541b5a16ef8a9004a8, type: 3}
@@ -4481,7 +4446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &131666722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,7 +4557,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &132601640
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,7 +4668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &137837272
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,7 +4779,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &139108232
 GameObject:
   m_ObjectHideFlags: 0
@@ -4929,7 +4890,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &139155000
 GameObject:
   m_ObjectHideFlags: 0
@@ -5041,7 +5001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &140840774
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,7 +5112,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &144456975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5265,7 +5223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &147140132
 GameObject:
   m_ObjectHideFlags: 0
@@ -5377,7 +5334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &149695414
 GameObject:
   m_ObjectHideFlags: 0
@@ -5489,7 +5445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &150370678
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,7 +5556,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &153310298
 GameObject:
   m_ObjectHideFlags: 0
@@ -5713,7 +5667,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &154268394
 GameObject:
   m_ObjectHideFlags: 0
@@ -5905,7 +5858,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &159061089
 GameObject:
   m_ObjectHideFlags: 0
@@ -6017,7 +5969,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &160258049
 GameObject:
   m_ObjectHideFlags: 0
@@ -6129,7 +6080,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &165369131
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,7 +6191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &168846349
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,7 +6302,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &170776294
 GameObject:
   m_ObjectHideFlags: 0
@@ -6465,7 +6413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &173233279
 GameObject:
   m_ObjectHideFlags: 0
@@ -6577,7 +6524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &173460170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6689,7 +6635,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &173693226
 GameObject:
   m_ObjectHideFlags: 0
@@ -6801,7 +6746,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &173940861
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,7 +6857,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &174400958
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,7 +6968,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &175627616
 GameObject:
   m_ObjectHideFlags: 0
@@ -7217,7 +7159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &185389143
 GameObject:
   m_ObjectHideFlags: 0
@@ -7329,7 +7270,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &194323107
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,7 +7381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &201543898
 GameObject:
   m_ObjectHideFlags: 0
@@ -7553,7 +7492,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &207572186
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,7 +7603,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &209315122
 GameObject:
   m_ObjectHideFlags: 0
@@ -7777,7 +7714,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &213161147
 GameObject:
   m_ObjectHideFlags: 0
@@ -7889,7 +7825,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &220397185
 GameObject:
   m_ObjectHideFlags: 0
@@ -8001,7 +7936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &222778936
 GameObject:
   m_ObjectHideFlags: 0
@@ -8113,7 +8047,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &229655620
 GameObject:
   m_ObjectHideFlags: 0
@@ -8225,7 +8158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &229836055
 GameObject:
   m_ObjectHideFlags: 0
@@ -8337,7 +8269,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &230049160
 GameObject:
   m_ObjectHideFlags: 0
@@ -8449,7 +8380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &235000794
 GameObject:
   m_ObjectHideFlags: 0
@@ -8561,7 +8491,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &238168124
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,7 +8602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &240051821
 GameObject:
   m_ObjectHideFlags: 0
@@ -8785,7 +8713,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &245279937
 GameObject:
   m_ObjectHideFlags: 0
@@ -8897,7 +8824,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &249265712
 GameObject:
   m_ObjectHideFlags: 0
@@ -9009,7 +8935,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &250502466
 GameObject:
   m_ObjectHideFlags: 0
@@ -9121,7 +9046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &256603411
 GameObject:
   m_ObjectHideFlags: 0
@@ -9233,7 +9157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &258877959
 GameObject:
   m_ObjectHideFlags: 0
@@ -9345,7 +9268,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &259856329
 GameObject:
   m_ObjectHideFlags: 0
@@ -9457,7 +9379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &260052258
 GameObject:
   m_ObjectHideFlags: 0
@@ -9569,7 +9490,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &264238627
 GameObject:
   m_ObjectHideFlags: 0
@@ -9681,7 +9601,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &264848842
 GameObject:
   m_ObjectHideFlags: 0
@@ -9793,7 +9712,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &265729845
 GameObject:
   m_ObjectHideFlags: 0
@@ -9905,7 +9823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &273124631
 GameObject:
   m_ObjectHideFlags: 0
@@ -10017,7 +9934,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &273808262
 GameObject:
   m_ObjectHideFlags: 0
@@ -10129,7 +10045,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &279254205
 GameObject:
   m_ObjectHideFlags: 0
@@ -10241,7 +10156,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &281479335
 GameObject:
   m_ObjectHideFlags: 0
@@ -10353,7 +10267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &282120488
 GameObject:
   m_ObjectHideFlags: 0
@@ -10542,7 +10455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &284380313
 GameObject:
   m_ObjectHideFlags: 0
@@ -10654,7 +10566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &286632500
 GameObject:
   m_ObjectHideFlags: 0
@@ -10766,7 +10677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &292500469
 GameObject:
   m_ObjectHideFlags: 0
@@ -10878,7 +10788,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &293679324
 GameObject:
   m_ObjectHideFlags: 0
@@ -10990,7 +10899,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &294276398
 GameObject:
   m_ObjectHideFlags: 0
@@ -11102,7 +11010,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &296515987
 GameObject:
   m_ObjectHideFlags: 0
@@ -11214,7 +11121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &296588480
 GameObject:
   m_ObjectHideFlags: 0
@@ -11326,7 +11232,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &301726137
 GameObject:
   m_ObjectHideFlags: 0
@@ -11438,7 +11343,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &302603625
 GameObject:
   m_ObjectHideFlags: 0
@@ -11550,7 +11454,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &302621892
 GameObject:
   m_ObjectHideFlags: 0
@@ -11662,7 +11565,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &306907349
 GameObject:
   m_ObjectHideFlags: 0
@@ -11774,7 +11676,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &309207146
 GameObject:
   m_ObjectHideFlags: 0
@@ -11886,7 +11787,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &310735840
 GameObject:
   m_ObjectHideFlags: 0
@@ -11998,7 +11898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &312524938
 GameObject:
   m_ObjectHideFlags: 0
@@ -12110,7 +12009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &312606319
 GameObject:
   m_ObjectHideFlags: 0
@@ -12222,7 +12120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &315071033
 GameObject:
   m_ObjectHideFlags: 0
@@ -12334,7 +12231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &319427503
 GameObject:
   m_ObjectHideFlags: 0
@@ -12446,7 +12342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &320907535
 GameObject:
   m_ObjectHideFlags: 0
@@ -12558,7 +12453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &322105350
 GameObject:
   m_ObjectHideFlags: 0
@@ -12670,7 +12564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &324930394
 GameObject:
   m_ObjectHideFlags: 0
@@ -12916,7 +12809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &326128453
 GameObject:
   m_ObjectHideFlags: 0
@@ -13108,7 +13000,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &326524085
 GameObject:
   m_ObjectHideFlags: 0
@@ -13220,7 +13111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &327717892
 GameObject:
   m_ObjectHideFlags: 0
@@ -13332,7 +13222,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &331771308
 GameObject:
   m_ObjectHideFlags: 0
@@ -13444,7 +13333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &332628343
 GameObject:
   m_ObjectHideFlags: 0
@@ -13556,7 +13444,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &332703628
 GameObject:
   m_ObjectHideFlags: 0
@@ -13668,7 +13555,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &333654092
 GameObject:
   m_ObjectHideFlags: 0
@@ -13780,7 +13666,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &335101570
 GameObject:
   m_ObjectHideFlags: 0
@@ -13892,7 +13777,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &336856720
 GameObject:
   m_ObjectHideFlags: 0
@@ -14004,7 +13888,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &339255475
 GameObject:
   m_ObjectHideFlags: 0
@@ -14116,7 +13999,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &344729496
 GameObject:
   m_ObjectHideFlags: 0
@@ -14228,7 +14110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &350755329
 GameObject:
   m_ObjectHideFlags: 0
@@ -14340,7 +14221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &351113537
 GameObject:
   m_ObjectHideFlags: 0
@@ -14452,7 +14332,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &358699367
 GameObject:
   m_ObjectHideFlags: 0
@@ -14564,7 +14443,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &359573779
 GameObject:
   m_ObjectHideFlags: 0
@@ -14676,7 +14554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &363251989
 GameObject:
   m_ObjectHideFlags: 0
@@ -14788,7 +14665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &374682098
 GameObject:
   m_ObjectHideFlags: 0
@@ -14900,7 +14776,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &376683348
 GameObject:
   m_ObjectHideFlags: 0
@@ -15012,7 +14887,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &377992985
 GameObject:
   m_ObjectHideFlags: 0
@@ -15124,7 +14998,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &384927541
 GameObject:
   m_ObjectHideFlags: 0
@@ -15236,7 +15109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &390130385
 GameObject:
   m_ObjectHideFlags: 0
@@ -15348,7 +15220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &390270788
 GameObject:
   m_ObjectHideFlags: 0
@@ -15460,7 +15331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &400071302
 GameObject:
   m_ObjectHideFlags: 0
@@ -15572,7 +15442,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &404802528
 GameObject:
   m_ObjectHideFlags: 0
@@ -15684,7 +15553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &411367292
 GameObject:
   m_ObjectHideFlags: 0
@@ -15796,7 +15664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &417553463
 GameObject:
   m_ObjectHideFlags: 0
@@ -15908,7 +15775,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &419804096
 GameObject:
   m_ObjectHideFlags: 0
@@ -16020,7 +15886,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &426075434
 GameObject:
   m_ObjectHideFlags: 0
@@ -16274,7 +16139,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &435604380
 GameObject:
   m_ObjectHideFlags: 0
@@ -16386,7 +16250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &438566443
 GameObject:
   m_ObjectHideFlags: 0
@@ -16498,7 +16361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &440904218
 GameObject:
   m_ObjectHideFlags: 0
@@ -16610,7 +16472,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &441341993
 GameObject:
   m_ObjectHideFlags: 0
@@ -16722,7 +16583,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &452075673
 GameObject:
   m_ObjectHideFlags: 0
@@ -16834,7 +16694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &452619963
 GameObject:
   m_ObjectHideFlags: 0
@@ -16946,7 +16805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &454234605
 GameObject:
   m_ObjectHideFlags: 0
@@ -17058,7 +16916,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &456485586
 GameObject:
   m_ObjectHideFlags: 0
@@ -17170,7 +17027,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &456618994
 GameObject:
   m_ObjectHideFlags: 0
@@ -17282,7 +17138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &456919136
 GameObject:
   m_ObjectHideFlags: 0
@@ -17394,7 +17249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &460634045
 GameObject:
   m_ObjectHideFlags: 0
@@ -17506,7 +17360,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &463683796
 GameObject:
   m_ObjectHideFlags: 0
@@ -17722,7 +17575,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &465067464
 GameObject:
   m_ObjectHideFlags: 0
@@ -17834,7 +17686,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &465686753
 GameObject:
   m_ObjectHideFlags: 0
@@ -17946,7 +17797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!224 &483262625 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8615568350465300954, guid: fa76366e90860d541b5a16ef8a9004a8, type: 3}
@@ -18207,7 +18057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &486482642
 GameObject:
   m_ObjectHideFlags: 0
@@ -18319,7 +18168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &488874571
 GameObject:
   m_ObjectHideFlags: 0
@@ -18431,7 +18279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &494342098
 GameObject:
   m_ObjectHideFlags: 0
@@ -18543,7 +18390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &496278850
 GameObject:
   m_ObjectHideFlags: 0
@@ -18732,7 +18578,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &501229997
 GameObject:
   m_ObjectHideFlags: 0
@@ -18844,7 +18689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &501723376
 GameObject:
   m_ObjectHideFlags: 0
@@ -18956,7 +18800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &508440461
 GameObject:
   m_ObjectHideFlags: 0
@@ -19068,7 +18911,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &510786714
 GameObject:
   m_ObjectHideFlags: 0
@@ -19180,7 +19022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &517174262
 GameObject:
   m_ObjectHideFlags: 0
@@ -19292,7 +19133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &517256737
 GameObject:
   m_ObjectHideFlags: 0
@@ -19404,7 +19244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &525173661
 GameObject:
   m_ObjectHideFlags: 0
@@ -19516,7 +19355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &527529405
 GameObject:
   m_ObjectHideFlags: 0
@@ -19761,7 +19599,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &534398944
 GameObject:
   m_ObjectHideFlags: 0
@@ -19873,7 +19710,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1001 &538145574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20158,7 +19994,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &553278919
 GameObject:
   m_ObjectHideFlags: 0
@@ -20270,7 +20105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &557462664
 GameObject:
   m_ObjectHideFlags: 0
@@ -20382,7 +20216,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &557707752
 GameObject:
   m_ObjectHideFlags: 0
@@ -20494,7 +20327,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &558521788
 GameObject:
   m_ObjectHideFlags: 0
@@ -20606,7 +20438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &561027210
 GameObject:
   m_ObjectHideFlags: 0
@@ -20718,7 +20549,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &563423940
 GameObject:
   m_ObjectHideFlags: 0
@@ -20830,7 +20660,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &565281099
 GameObject:
   m_ObjectHideFlags: 0
@@ -20942,7 +20771,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &565775441
 GameObject:
   m_ObjectHideFlags: 0
@@ -21054,7 +20882,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &566064891
 GameObject:
   m_ObjectHideFlags: 0
@@ -21166,7 +20993,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &569242966
 GameObject:
   m_ObjectHideFlags: 0
@@ -21278,7 +21104,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &569299612
 GameObject:
   m_ObjectHideFlags: 0
@@ -21470,7 +21295,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &573652375
 GameObject:
   m_ObjectHideFlags: 0
@@ -21582,7 +21406,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &574681752
 GameObject:
   m_ObjectHideFlags: 0
@@ -21694,7 +21517,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &576258793
 GameObject:
   m_ObjectHideFlags: 0
@@ -21806,7 +21628,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &584138177
 GameObject:
   m_ObjectHideFlags: 0
@@ -21918,7 +21739,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &585202197
 GameObject:
   m_ObjectHideFlags: 0
@@ -22030,7 +21850,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &589703966
 GameObject:
   m_ObjectHideFlags: 0
@@ -22142,7 +21961,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &594940389
 GameObject:
   m_ObjectHideFlags: 0
@@ -22254,7 +22072,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &595839319
 GameObject:
   m_ObjectHideFlags: 0
@@ -22366,7 +22183,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &611390017
 GameObject:
   m_ObjectHideFlags: 0
@@ -22478,7 +22294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &625858978
 GameObject:
   m_ObjectHideFlags: 0
@@ -22590,7 +22405,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &626257239
 GameObject:
   m_ObjectHideFlags: 0
@@ -22702,7 +22516,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &628315407
 GameObject:
   m_ObjectHideFlags: 0
@@ -22814,7 +22627,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &628705383
 GameObject:
   m_ObjectHideFlags: 0
@@ -22926,7 +22738,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &628951474
 GameObject:
   m_ObjectHideFlags: 0
@@ -23038,7 +22849,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &629228127
 GameObject:
   m_ObjectHideFlags: 0
@@ -23150,7 +22960,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &631228745
 GameObject:
   m_ObjectHideFlags: 0
@@ -23262,7 +23071,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &632137998
 GameObject:
   m_ObjectHideFlags: 0
@@ -23374,7 +23182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &636679606
 GameObject:
   m_ObjectHideFlags: 0
@@ -23486,7 +23293,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &637503487
 GameObject:
   m_ObjectHideFlags: 0
@@ -23598,7 +23404,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &639489543
 GameObject:
   m_ObjectHideFlags: 0
@@ -23710,7 +23515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &642519984
 GameObject:
   m_ObjectHideFlags: 0
@@ -23822,7 +23626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &650743219
 GameObject:
   m_ObjectHideFlags: 0
@@ -23934,7 +23737,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &652058730
 GameObject:
   m_ObjectHideFlags: 0
@@ -24046,7 +23848,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &657007680
 GameObject:
   m_ObjectHideFlags: 0
@@ -24235,7 +24036,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &658697468
 GameObject:
   m_ObjectHideFlags: 0
@@ -24347,7 +24147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &659792353
 GameObject:
   m_ObjectHideFlags: 0
@@ -24459,7 +24258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &661856787
 GameObject:
   m_ObjectHideFlags: 0
@@ -24571,7 +24369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &664649629
 GameObject:
   m_ObjectHideFlags: 0
@@ -24683,7 +24480,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &665979554
 GameObject:
   m_ObjectHideFlags: 0
@@ -24795,7 +24591,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &668070383
 GameObject:
   m_ObjectHideFlags: 0
@@ -24907,7 +24702,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &671307089
 GameObject:
   m_ObjectHideFlags: 0
@@ -25019,7 +24813,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &671384607
 GameObject:
   m_ObjectHideFlags: 0
@@ -25131,7 +24924,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &672774632
 GameObject:
   m_ObjectHideFlags: 0
@@ -25253,6 +25045,7 @@ MonoBehaviour:
   _previewParent: {fileID: 861550046}
   _towers:
   - {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
+  - {fileID: 5148734966440186366, guid: 48429b04e0658244f98bd04ac983a374, type: 3}
   _previewPrefab: {fileID: 2745316407689500712, guid: e13b3d7dae4d40349b35d54deb1e848f, type: 3}
 --- !u!1 &672954641
 GameObject:
@@ -25365,7 +25158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &677334234
 GameObject:
   m_ObjectHideFlags: 0
@@ -25477,7 +25269,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &683779730
 GameObject:
   m_ObjectHideFlags: 0
@@ -25589,7 +25380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &689853868
 GameObject:
   m_ObjectHideFlags: 0
@@ -25701,7 +25491,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &691591231
 GameObject:
   m_ObjectHideFlags: 0
@@ -25813,7 +25602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &694772038
 GameObject:
   m_ObjectHideFlags: 0
@@ -25925,7 +25713,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &698166886
 GameObject:
   m_ObjectHideFlags: 0
@@ -26037,7 +25824,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &702192730
 GameObject:
   m_ObjectHideFlags: 0
@@ -26149,7 +25935,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &704842576
 GameObject:
   m_ObjectHideFlags: 0
@@ -26261,7 +26046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &706306646
 GameObject:
   m_ObjectHideFlags: 0
@@ -26373,7 +26157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &710905497
 GameObject:
   m_ObjectHideFlags: 0
@@ -26485,7 +26268,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &715177812
 GameObject:
   m_ObjectHideFlags: 0
@@ -26597,7 +26379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &721118861
 GameObject:
   m_ObjectHideFlags: 0
@@ -26709,7 +26490,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &724682239
 GameObject:
   m_ObjectHideFlags: 0
@@ -26821,7 +26601,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &728354410
 GameObject:
   m_ObjectHideFlags: 0
@@ -26933,7 +26712,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &735462017
 GameObject:
   m_ObjectHideFlags: 0
@@ -27045,7 +26823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &740122965
 GameObject:
   m_ObjectHideFlags: 0
@@ -27290,7 +27067,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &741839982
 GameObject:
   m_ObjectHideFlags: 0
@@ -27402,7 +27178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1001 &745270540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27611,7 +27386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &746831292
 GameObject:
   m_ObjectHideFlags: 0
@@ -27800,7 +27574,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &760145460
 GameObject:
   m_ObjectHideFlags: 0
@@ -27912,7 +27685,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &764452840
 GameObject:
   m_ObjectHideFlags: 0
@@ -28024,7 +27796,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &765242313
 GameObject:
   m_ObjectHideFlags: 0
@@ -28136,7 +27907,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &769719554
 GameObject:
   m_ObjectHideFlags: 0
@@ -28248,7 +28018,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &779919519
 GameObject:
   m_ObjectHideFlags: 0
@@ -28360,7 +28129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &785690003
 GameObject:
   m_ObjectHideFlags: 0
@@ -28472,7 +28240,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &789167665
 GameObject:
   m_ObjectHideFlags: 0
@@ -28584,7 +28351,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &791040852
 GameObject:
   m_ObjectHideFlags: 0
@@ -28696,7 +28462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &795573992
 GameObject:
   m_ObjectHideFlags: 0
@@ -28885,7 +28650,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1001 &804287009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29094,7 +28858,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &819030155
 GameObject:
   m_ObjectHideFlags: 0
@@ -29206,7 +28969,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &821161798
 GameObject:
   m_ObjectHideFlags: 0
@@ -29318,7 +29080,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &835849343
 GameObject:
   m_ObjectHideFlags: 0
@@ -29430,7 +29191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &838871154
 GameObject:
   m_ObjectHideFlags: 0
@@ -29542,7 +29302,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &841481458
 GameObject:
   m_ObjectHideFlags: 0
@@ -29654,7 +29413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &842103737
 GameObject:
   m_ObjectHideFlags: 0
@@ -29766,7 +29524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &847832479
 GameObject:
   m_ObjectHideFlags: 0
@@ -30011,7 +29768,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &859935213
 GameObject:
   m_ObjectHideFlags: 0
@@ -30300,7 +30056,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &866065880
 GameObject:
   m_ObjectHideFlags: 0
@@ -30412,7 +30167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &868898462
 GameObject:
   m_ObjectHideFlags: 0
@@ -30524,7 +30278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &877004808
 GameObject:
   m_ObjectHideFlags: 0
@@ -30636,7 +30389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &881135301
 GameObject:
   m_ObjectHideFlags: 0
@@ -30748,7 +30500,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &881452081
 GameObject:
   m_ObjectHideFlags: 0
@@ -30860,7 +30611,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &883338870
 GameObject:
   m_ObjectHideFlags: 0
@@ -30972,7 +30722,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &894106852
 GameObject:
   m_ObjectHideFlags: 0
@@ -31084,7 +30833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &901776492
 GameObject:
   m_ObjectHideFlags: 0
@@ -31196,7 +30944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &902709066
 GameObject:
   m_ObjectHideFlags: 0
@@ -31308,7 +31055,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &904943177
 GameObject:
   m_ObjectHideFlags: 0
@@ -31420,7 +31166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &906227701
 GameObject:
   m_ObjectHideFlags: 0
@@ -31532,7 +31277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &907096651
 GameObject:
   m_ObjectHideFlags: 0
@@ -31644,7 +31388,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &910724985
 GameObject:
   m_ObjectHideFlags: 0
@@ -31756,7 +31499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &914796272
 GameObject:
   m_ObjectHideFlags: 0
@@ -31868,7 +31610,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &918449749
 GameObject:
   m_ObjectHideFlags: 0
@@ -31980,7 +31721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &919540156
 GameObject:
   m_ObjectHideFlags: 0
@@ -32092,7 +31832,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &925207525
 GameObject:
   m_ObjectHideFlags: 0
@@ -32204,7 +31943,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &925737992
 GameObject:
   m_ObjectHideFlags: 0
@@ -32316,7 +32054,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &932082128
 GameObject:
   m_ObjectHideFlags: 0
@@ -32428,7 +32165,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &936146749
 GameObject:
   m_ObjectHideFlags: 0
@@ -32540,7 +32276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &937542259
 GameObject:
   m_ObjectHideFlags: 0
@@ -32652,7 +32387,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &947755723
 GameObject:
   m_ObjectHideFlags: 0
@@ -32841,7 +32575,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &952773284
 GameObject:
   m_ObjectHideFlags: 0
@@ -32953,7 +32686,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &953870688
 GameObject:
   m_ObjectHideFlags: 0
@@ -33065,7 +32797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &955021279
 GameObject:
   m_ObjectHideFlags: 0
@@ -33177,7 +32908,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &955368191
 GameObject:
   m_ObjectHideFlags: 0
@@ -33367,7 +33097,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &958688853
 GameObject:
   m_ObjectHideFlags: 0
@@ -33479,7 +33208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &964604331
 GameObject:
   m_ObjectHideFlags: 0
@@ -33591,7 +33319,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &965320570
 GameObject:
   m_ObjectHideFlags: 0
@@ -33703,7 +33430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &966322741
 GameObject:
   m_ObjectHideFlags: 0
@@ -33815,7 +33541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &975077672
 GameObject:
   m_ObjectHideFlags: 0
@@ -33927,7 +33652,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &981378371
 GameObject:
   m_ObjectHideFlags: 0
@@ -34039,7 +33763,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &984598035
 GameObject:
   m_ObjectHideFlags: 0
@@ -34151,7 +33874,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &994062234
 GameObject:
   m_ObjectHideFlags: 0
@@ -34263,7 +33985,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &995252248
 GameObject:
   m_ObjectHideFlags: 0
@@ -34375,7 +34096,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &999556535
 GameObject:
   m_ObjectHideFlags: 0
@@ -34487,7 +34207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1001797424
 GameObject:
   m_ObjectHideFlags: 0
@@ -34599,7 +34318,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1003649456
 GameObject:
   m_ObjectHideFlags: 0
@@ -34711,7 +34429,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1006819289
 GameObject:
   m_ObjectHideFlags: 0
@@ -34823,7 +34540,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1007301658
 GameObject:
   m_ObjectHideFlags: 0
@@ -35532,7 +35248,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1009910062
 GameObject:
   m_ObjectHideFlags: 0
@@ -35644,7 +35359,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1012773129
 GameObject:
   m_ObjectHideFlags: 0
@@ -35756,7 +35470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1017089437
 GameObject:
   m_ObjectHideFlags: 0
@@ -35868,7 +35581,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1020947058
 GameObject:
   m_ObjectHideFlags: 0
@@ -35980,7 +35692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1023043723
 GameObject:
   m_ObjectHideFlags: 0
@@ -36092,7 +35803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1025547688
 GameObject:
   m_ObjectHideFlags: 0
@@ -36204,7 +35914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1026983872
 GameObject:
   m_ObjectHideFlags: 0
@@ -36316,7 +36025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1027535566
 GameObject:
   m_ObjectHideFlags: 0
@@ -36428,7 +36136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1029905221
 GameObject:
   m_ObjectHideFlags: 0
@@ -36540,7 +36247,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1034679085
 GameObject:
   m_ObjectHideFlags: 0
@@ -36652,7 +36358,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1035939831
 GameObject:
   m_ObjectHideFlags: 0
@@ -36764,7 +36469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1041196583
 GameObject:
   m_ObjectHideFlags: 0
@@ -36876,7 +36580,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1048757009
 GameObject:
   m_ObjectHideFlags: 0
@@ -36988,7 +36691,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1050250221
 GameObject:
   m_ObjectHideFlags: 0
@@ -37100,7 +36802,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1051147047
 GameObject:
   m_ObjectHideFlags: 0
@@ -37212,7 +36913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1051407454
 GameObject:
   m_ObjectHideFlags: 0
@@ -37324,7 +37024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1054917221
 GameObject:
   m_ObjectHideFlags: 0
@@ -37436,7 +37135,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1066215614
 GameObject:
   m_ObjectHideFlags: 0
@@ -37652,7 +37350,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1068389315
 GameObject:
   m_ObjectHideFlags: 0
@@ -37764,7 +37461,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1075073957
 GameObject:
   m_ObjectHideFlags: 0
@@ -37876,7 +37572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1076177527
 GameObject:
   m_ObjectHideFlags: 0
@@ -37988,7 +37683,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1080620609
 GameObject:
   m_ObjectHideFlags: 0
@@ -38100,7 +37794,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1082024977
 GameObject:
   m_ObjectHideFlags: 0
@@ -38212,7 +37905,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1082587035
 GameObject:
   m_ObjectHideFlags: 0
@@ -38324,7 +38016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1085238903
 GameObject:
   m_ObjectHideFlags: 0
@@ -38551,7 +38242,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1092386445
 GameObject:
   m_ObjectHideFlags: 0
@@ -38663,7 +38353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1093909677 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3429539971172246317, guid: 8d76d52d46b675e40b2c508a829c62fc, type: 3}
@@ -38813,7 +38502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1099056313
 GameObject:
   m_ObjectHideFlags: 0
@@ -38925,7 +38613,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1105431835
 GameObject:
   m_ObjectHideFlags: 0
@@ -39037,7 +38724,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1107684502
 GameObject:
   m_ObjectHideFlags: 0
@@ -39149,7 +38835,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1111303304
 GameObject:
   m_ObjectHideFlags: 0
@@ -39261,7 +38946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1113018489
 GameObject:
   m_ObjectHideFlags: 0
@@ -39373,7 +39057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1115108087
 GameObject:
   m_ObjectHideFlags: 0
@@ -39485,7 +39168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1117741161
 GameObject:
   m_ObjectHideFlags: 0
@@ -39636,7 +39318,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1117957923
 GameObject:
   m_ObjectHideFlags: 0
@@ -39748,7 +39429,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1121418855
 GameObject:
   m_ObjectHideFlags: 0
@@ -39860,7 +39540,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1121828679
 GameObject:
   m_ObjectHideFlags: 0
@@ -39972,7 +39651,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1122194534
 GameObject:
   m_ObjectHideFlags: 0
@@ -40084,7 +39762,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1123520123
 GameObject:
   m_ObjectHideFlags: 0
@@ -40196,7 +39873,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1134514984
 GameObject:
   m_ObjectHideFlags: 0
@@ -40308,7 +39984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1139406488
 GameObject:
   m_ObjectHideFlags: 0
@@ -40420,7 +40095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1142107106
 GameObject:
   m_ObjectHideFlags: 0
@@ -40665,7 +40339,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1150392570
 GameObject:
   m_ObjectHideFlags: 0
@@ -40891,7 +40564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1158732784
 GameObject:
   m_ObjectHideFlags: 0
@@ -41003,7 +40675,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1160430585
 GameObject:
   m_ObjectHideFlags: 0
@@ -41115,7 +40786,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1160757065
 GameObject:
   m_ObjectHideFlags: 0
@@ -41227,7 +40897,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1162705744
 GameObject:
   m_ObjectHideFlags: 0
@@ -41339,7 +41008,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1170759682
 GameObject:
   m_ObjectHideFlags: 0
@@ -41451,7 +41119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1176230458
 GameObject:
   m_ObjectHideFlags: 0
@@ -41563,7 +41230,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1179951738
 GameObject:
   m_ObjectHideFlags: 0
@@ -41808,7 +41474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1185022927
 GameObject:
   m_ObjectHideFlags: 0
@@ -41920,7 +41585,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1186961128
 GameObject:
   m_ObjectHideFlags: 0
@@ -42032,7 +41696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1188786419
 GameObject:
   m_ObjectHideFlags: 0
@@ -42144,7 +41807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1195209111
 GameObject:
   m_ObjectHideFlags: 0
@@ -42256,7 +41918,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1196214958
 GameObject:
   m_ObjectHideFlags: 0
@@ -42368,7 +42029,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1196681549
 GameObject:
   m_ObjectHideFlags: 0
@@ -42480,7 +42140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1200113883
 GameObject:
   m_ObjectHideFlags: 0
@@ -42592,7 +42251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1200356113
 GameObject:
   m_ObjectHideFlags: 0
@@ -42704,7 +42362,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1204024369
 GameObject:
   m_ObjectHideFlags: 0
@@ -42816,7 +42473,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1204261230
 GameObject:
   m_ObjectHideFlags: 0
@@ -42928,7 +42584,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1204692157
 GameObject:
   m_ObjectHideFlags: 0
@@ -43040,7 +42695,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1205492428
 GameObject:
   m_ObjectHideFlags: 0
@@ -43326,7 +42980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1220747132
 GameObject:
   m_ObjectHideFlags: 0
@@ -43438,7 +43091,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1224674989
 GameObject:
   m_ObjectHideFlags: 0
@@ -43550,7 +43202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1234093542
 GameObject:
   m_ObjectHideFlags: 0
@@ -43662,7 +43313,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1240198518
 GameObject:
   m_ObjectHideFlags: 0
@@ -43853,7 +43503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1249121952
 GameObject:
   m_ObjectHideFlags: 0
@@ -43965,7 +43614,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1254838007
 GameObject:
   m_ObjectHideFlags: 0
@@ -44077,7 +43725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1254985115
 GameObject:
   m_ObjectHideFlags: 0
@@ -44189,7 +43836,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1265747321
 GameObject:
   m_ObjectHideFlags: 0
@@ -44301,7 +43947,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1267609982
 GameObject:
   m_ObjectHideFlags: 0
@@ -44413,7 +44058,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1269519631
 GameObject:
   m_ObjectHideFlags: 0
@@ -44525,7 +44169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1272829638
 GameObject:
   m_ObjectHideFlags: 0
@@ -44637,7 +44280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1273735969
 GameObject:
   m_ObjectHideFlags: 0
@@ -44976,7 +44618,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1001 &1286804010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45185,7 +44826,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1312021675
 GameObject:
   m_ObjectHideFlags: 0
@@ -45297,7 +44937,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1312176288
 GameObject:
   m_ObjectHideFlags: 0
@@ -45409,7 +45048,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1314991440
 GameObject:
   m_ObjectHideFlags: 0
@@ -45598,7 +45236,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1326732572
 GameObject:
   m_ObjectHideFlags: 0
@@ -45710,7 +45347,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1329949885
 GameObject:
   m_ObjectHideFlags: 0
@@ -45822,7 +45458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1331194775
 GameObject:
   m_ObjectHideFlags: 0
@@ -45934,7 +45569,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1331884828
 GameObject:
   m_ObjectHideFlags: 0
@@ -46046,7 +45680,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1341144311
 GameObject:
   m_ObjectHideFlags: 0
@@ -46158,7 +45791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1342836882
 GameObject:
   m_ObjectHideFlags: 0
@@ -46270,7 +45902,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1353819897
 GameObject:
   m_ObjectHideFlags: 0
@@ -46382,7 +46013,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1356128461
 GameObject:
   m_ObjectHideFlags: 0
@@ -46494,7 +46124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1357626384
 GameObject:
   m_ObjectHideFlags: 0
@@ -46606,7 +46235,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1357925971
 GameObject:
   m_ObjectHideFlags: 0
@@ -46718,7 +46346,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1358572495
 GameObject:
   m_ObjectHideFlags: 0
@@ -46830,7 +46457,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1361666147
 GameObject:
   m_ObjectHideFlags: 0
@@ -46942,7 +46568,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1361894066
 GameObject:
   m_ObjectHideFlags: 0
@@ -47133,7 +46758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1364267285
 GameObject:
   m_ObjectHideFlags: 0
@@ -47245,7 +46869,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1365452595
 GameObject:
   m_ObjectHideFlags: 0
@@ -47357,7 +46980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1368799572
 GameObject:
   m_ObjectHideFlags: 0
@@ -47469,7 +47091,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1372605465
 GameObject:
   m_ObjectHideFlags: 0
@@ -47581,7 +47202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1379815209
 GameObject:
   m_ObjectHideFlags: 0
@@ -47773,7 +47393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1392082443
 GameObject:
   m_ObjectHideFlags: 0
@@ -47885,7 +47504,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1403040306
 GameObject:
   m_ObjectHideFlags: 0
@@ -48089,7 +47707,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1407455007
 GameObject:
   m_ObjectHideFlags: 0
@@ -48293,7 +47910,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1415944096
 GameObject:
   m_ObjectHideFlags: 0
@@ -48405,7 +48021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1416932910
 GameObject:
   m_ObjectHideFlags: 0
@@ -48517,7 +48132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1418053266
 GameObject:
   m_ObjectHideFlags: 0
@@ -48629,7 +48243,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1421664798
 GameObject:
   m_ObjectHideFlags: 0
@@ -48741,7 +48354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1431183913
 GameObject:
   m_ObjectHideFlags: 0
@@ -48853,7 +48465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1433836095
 GameObject:
   m_ObjectHideFlags: 0
@@ -48965,7 +48576,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1440025568
 GameObject:
   m_ObjectHideFlags: 0
@@ -49077,7 +48687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1440477358
 GameObject:
   m_ObjectHideFlags: 0
@@ -49189,7 +48798,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1453712402
 GameObject:
   m_ObjectHideFlags: 0
@@ -49301,7 +48909,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1454680533
 GameObject:
   m_ObjectHideFlags: 0
@@ -49413,7 +49020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1456465452
 GameObject:
   m_ObjectHideFlags: 0
@@ -49603,7 +49209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1462713230
 GameObject:
   m_ObjectHideFlags: 0
@@ -49795,7 +49400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1477198165
 GameObject:
   m_ObjectHideFlags: 0
@@ -50040,7 +49644,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1479312862
 GameObject:
   m_ObjectHideFlags: 0
@@ -50090,6 +49693,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnEnemyKilled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnemyReturnToPool:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &1479312864
@@ -50266,7 +49872,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1480674239
 GameObject:
   m_ObjectHideFlags: 0
@@ -50378,7 +49983,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1482671592
 GameObject:
   m_ObjectHideFlags: 0
@@ -50490,7 +50094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1483754634
 GameObject:
   m_ObjectHideFlags: 0
@@ -50696,7 +50299,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1503983735
 GameObject:
   m_ObjectHideFlags: 0
@@ -50808,7 +50410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1505982478
 GameObject:
   m_ObjectHideFlags: 0
@@ -50920,7 +50521,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1511081186
 GameObject:
   m_ObjectHideFlags: 0
@@ -51032,7 +50632,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1511190424
 GameObject:
   m_ObjectHideFlags: 0
@@ -51144,7 +50743,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1511453102
 GameObject:
   m_ObjectHideFlags: 0
@@ -51256,7 +50854,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1514228477
 GameObject:
   m_ObjectHideFlags: 0
@@ -51368,7 +50965,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1518160012
 GameObject:
   m_ObjectHideFlags: 0
@@ -51480,7 +51076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1518401916
 GameObject:
   m_ObjectHideFlags: 0
@@ -51592,7 +51187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1520870670
 GameObject:
   m_ObjectHideFlags: 0
@@ -51704,7 +51298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1524227935
 GameObject:
   m_ObjectHideFlags: 0
@@ -51816,7 +51409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1524871274
 GameObject:
   m_ObjectHideFlags: 0
@@ -51995,7 +51587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1533098930
 GameObject:
   m_ObjectHideFlags: 0
@@ -52107,7 +51698,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1540304104
 GameObject:
   m_ObjectHideFlags: 0
@@ -52219,7 +51809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1001 &1541412292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52428,7 +52017,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1561332737
 GameObject:
   m_ObjectHideFlags: 0
@@ -52540,7 +52128,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1566187448
 GameObject:
   m_ObjectHideFlags: 0
@@ -52652,7 +52239,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1569628811
 GameObject:
   m_ObjectHideFlags: 0
@@ -52764,7 +52350,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1572531541
 GameObject:
   m_ObjectHideFlags: 0
@@ -52876,7 +52461,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1577313059
 GameObject:
   m_ObjectHideFlags: 0
@@ -52988,7 +52572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1580204900
 GameObject:
   m_ObjectHideFlags: 0
@@ -53100,7 +52683,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1580731136
 GameObject:
   m_ObjectHideFlags: 0
@@ -53212,7 +52794,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1586423287
 GameObject:
   m_ObjectHideFlags: 0
@@ -53324,7 +52905,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1589268009
 GameObject:
   m_ObjectHideFlags: 0
@@ -53436,7 +53016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1595839910
 GameObject:
   m_ObjectHideFlags: 0
@@ -53628,7 +53207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1605836626
 GameObject:
   m_ObjectHideFlags: 0
@@ -53740,7 +53318,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1608669969
 GameObject:
   m_ObjectHideFlags: 0
@@ -53852,7 +53429,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1612562147
 GameObject:
   m_ObjectHideFlags: 0
@@ -53964,7 +53540,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1614953848
 GameObject:
   m_ObjectHideFlags: 0
@@ -54076,7 +53651,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1619607048
 GameObject:
   m_ObjectHideFlags: 0
@@ -54188,7 +53762,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1620210404
 GameObject:
   m_ObjectHideFlags: 0
@@ -54300,7 +53873,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1622982253
 GameObject:
   m_ObjectHideFlags: 0
@@ -54412,7 +53984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1624353399
 GameObject:
   m_ObjectHideFlags: 0
@@ -54524,7 +54095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1624411621
 GameObject:
   m_ObjectHideFlags: 0
@@ -54636,7 +54206,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1638388467
 GameObject:
   m_ObjectHideFlags: 0
@@ -54748,7 +54317,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1646657913
 GameObject:
   m_ObjectHideFlags: 0
@@ -54860,7 +54428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1650841940
 GameObject:
   m_ObjectHideFlags: 0
@@ -54972,7 +54539,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1653345469
 GameObject:
   m_ObjectHideFlags: 0
@@ -55084,7 +54650,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1656243186
 GameObject:
   m_ObjectHideFlags: 0
@@ -55196,7 +54761,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1662593614
 GameObject:
   m_ObjectHideFlags: 0
@@ -55308,7 +54872,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1665240273
 GameObject:
   m_ObjectHideFlags: 0
@@ -55420,7 +54983,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1667246438
 GameObject:
   m_ObjectHideFlags: 0
@@ -55532,7 +55094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1669371746
 GameObject:
   m_ObjectHideFlags: 0
@@ -55644,7 +55205,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1670794763
 GameObject:
   m_ObjectHideFlags: 0
@@ -55756,7 +55316,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1671217084
 GameObject:
   m_ObjectHideFlags: 0
@@ -55868,7 +55427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1674092669
 GameObject:
   m_ObjectHideFlags: 0
@@ -55980,7 +55538,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1688883155
 GameObject:
   m_ObjectHideFlags: 0
@@ -56092,7 +55649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1692562372
 GameObject:
   m_ObjectHideFlags: 0
@@ -56204,7 +55760,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1704512383
 GameObject:
   m_ObjectHideFlags: 0
@@ -56316,7 +55871,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1706640145
 GameObject:
   m_ObjectHideFlags: 0
@@ -56428,7 +55982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1707364332
 GameObject:
   m_ObjectHideFlags: 0
@@ -56540,7 +56093,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1711174007
 GameObject:
   m_ObjectHideFlags: 0
@@ -56652,7 +56204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1711819679
 GameObject:
   m_ObjectHideFlags: 0
@@ -56764,7 +56315,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1713570186
 GameObject:
   m_ObjectHideFlags: 0
@@ -56876,7 +56426,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1714592727
 GameObject:
   m_ObjectHideFlags: 0
@@ -56988,7 +56537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1714851735
 GameObject:
   m_ObjectHideFlags: 0
@@ -57100,7 +56648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1714964550
 GameObject:
   m_ObjectHideFlags: 0
@@ -57212,7 +56759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1718500973
 GameObject:
   m_ObjectHideFlags: 0
@@ -57324,7 +56870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1724958190
 GameObject:
   m_ObjectHideFlags: 0
@@ -57436,7 +56981,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1729018081
 GameObject:
   m_ObjectHideFlags: 0
@@ -57548,7 +57092,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1730774316
 GameObject:
   m_ObjectHideFlags: 0
@@ -57660,7 +57203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1741440222
 GameObject:
   m_ObjectHideFlags: 0
@@ -57852,7 +57394,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1746465330
 GameObject:
   m_ObjectHideFlags: 0
@@ -57964,7 +57505,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1746940121
 GameObject:
   m_ObjectHideFlags: 0
@@ -58076,7 +57616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1746953428
 GameObject:
   m_ObjectHideFlags: 0
@@ -58124,8 +57663,10 @@ MonoBehaviour:
   _enemiesPrefabs:
   - _enemy: {fileID: 7439061326933515892, guid: c01ac031e76a1ed48a6445d7eca1e721, type: 3}
     _poolSize: 20
+    _spawnStep: 1
   - _enemy: {fileID: 7439061326933515892, guid: 81d688e7cb774be4ab8146c77ed739be, type: 3}
     _poolSize: 5
+    _spawnStep: 2
   _spawnTime: 3
   _changeSpawnButton: {fileID: 1477198168}
   _onSpawningSprite: {fileID: 21300068, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
@@ -58241,7 +57782,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1750797741
 GameObject:
   m_ObjectHideFlags: 0
@@ -58353,7 +57893,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1751241882
 GameObject:
   m_ObjectHideFlags: 0
@@ -58465,7 +58004,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1752744063
 GameObject:
   m_ObjectHideFlags: 0
@@ -58577,7 +58115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1753860092
 GameObject:
   m_ObjectHideFlags: 0
@@ -58689,7 +58226,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1758970809
 GameObject:
   m_ObjectHideFlags: 0
@@ -58801,7 +58337,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1770917064
 GameObject:
   m_ObjectHideFlags: 0
@@ -58913,7 +58448,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1773648907
 GameObject:
   m_ObjectHideFlags: 0
@@ -59025,7 +58559,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1775911775
 GameObject:
   m_ObjectHideFlags: 0
@@ -59137,7 +58670,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1776664130
 GameObject:
   m_ObjectHideFlags: 0
@@ -59249,7 +58781,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1778361769
 GameObject:
   m_ObjectHideFlags: 0
@@ -59361,7 +58892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1778424323
 GameObject:
   m_ObjectHideFlags: 0
@@ -59473,7 +59003,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1784025658
 GameObject:
   m_ObjectHideFlags: 0
@@ -59585,7 +59114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1788623282
 GameObject:
   m_ObjectHideFlags: 0
@@ -59697,7 +59225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1790306440
 GameObject:
   m_ObjectHideFlags: 0
@@ -59809,7 +59336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1790655253
 GameObject:
   m_ObjectHideFlags: 0
@@ -59921,7 +59447,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1796686262
 GameObject:
   m_ObjectHideFlags: 0
@@ -60033,7 +59558,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1811680796
 GameObject:
   m_ObjectHideFlags: 0
@@ -60145,7 +59669,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1820892207
 GameObject:
   m_ObjectHideFlags: 0
@@ -60257,7 +59780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1822688405
 GameObject:
   m_ObjectHideFlags: 0
@@ -60369,7 +59891,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1831759610
 GameObject:
   m_ObjectHideFlags: 0
@@ -60481,7 +60002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1843675495
 GameObject:
   m_ObjectHideFlags: 0
@@ -60593,7 +60113,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1844481728
 GameObject:
   m_ObjectHideFlags: 0
@@ -60705,7 +60224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1851562366
 GameObject:
   m_ObjectHideFlags: 0
@@ -60817,7 +60335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1851850495
 GameObject:
   m_ObjectHideFlags: 0
@@ -60929,7 +60446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1854721991
 GameObject:
   m_ObjectHideFlags: 0
@@ -61041,7 +60557,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1856673271
 GameObject:
   m_ObjectHideFlags: 0
@@ -61153,7 +60668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1857440696
 GameObject:
   m_ObjectHideFlags: 0
@@ -61265,7 +60779,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1859427229
 GameObject:
   m_ObjectHideFlags: 0
@@ -61377,7 +60890,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1859750979
 GameObject:
   m_ObjectHideFlags: 0
@@ -61489,7 +61001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1869157615
 GameObject:
   m_ObjectHideFlags: 0
@@ -61678,7 +61189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1879461474
 GameObject:
   m_ObjectHideFlags: 0
@@ -61790,7 +61300,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1897710412
 GameObject:
   m_ObjectHideFlags: 0
@@ -61902,7 +61411,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1897854249
 GameObject:
   m_ObjectHideFlags: 0
@@ -62014,7 +61522,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1898178591
 GameObject:
   m_ObjectHideFlags: 0
@@ -62126,7 +61633,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1900404847
 GameObject:
   m_ObjectHideFlags: 0
@@ -62238,7 +61744,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1913598455
 GameObject:
   m_ObjectHideFlags: 0
@@ -62350,7 +61855,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1914686949
 GameObject:
   m_ObjectHideFlags: 0
@@ -62462,7 +61966,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1915383865
 GameObject:
   m_ObjectHideFlags: 0
@@ -62574,7 +62077,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1916802147
 GameObject:
   m_ObjectHideFlags: 0
@@ -62790,7 +62292,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1919033555
 GameObject:
   m_ObjectHideFlags: 0
@@ -62902,7 +62403,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1921111131
 GameObject:
   m_ObjectHideFlags: 0
@@ -63014,7 +62514,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1924582671
 GameObject:
   m_ObjectHideFlags: 0
@@ -63126,7 +62625,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1925167385
 GameObject:
   m_ObjectHideFlags: 0
@@ -63238,7 +62736,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1926903151
 GameObject:
   m_ObjectHideFlags: 0
@@ -63350,7 +62847,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1930745089
 GameObject:
   m_ObjectHideFlags: 0
@@ -63462,7 +62958,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1933765935
 GameObject:
   m_ObjectHideFlags: 0
@@ -63574,7 +63069,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1937240532
 GameObject:
   m_ObjectHideFlags: 0
@@ -63686,7 +63180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1937595545
 GameObject:
   m_ObjectHideFlags: 0
@@ -63798,7 +63291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1938803846
 GameObject:
   m_ObjectHideFlags: 0
@@ -63910,7 +63402,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1939856315
 GameObject:
   m_ObjectHideFlags: 0
@@ -64022,7 +63513,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1948667233
 GameObject:
   m_ObjectHideFlags: 0
@@ -64134,7 +63624,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1954643989
 GameObject:
   m_ObjectHideFlags: 0
@@ -64246,7 +63735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1957331482
 GameObject:
   m_ObjectHideFlags: 0
@@ -64358,7 +63846,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1959591351
 GameObject:
   m_ObjectHideFlags: 0
@@ -64550,7 +64037,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1001 &1961166668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64759,7 +64245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1962784713
 GameObject:
   m_ObjectHideFlags: 0
@@ -64871,7 +64356,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1963100277
 GameObject:
   m_ObjectHideFlags: 0
@@ -64983,7 +64467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1967932596
 GameObject:
   m_ObjectHideFlags: 0
@@ -65095,7 +64578,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1972628603
 GameObject:
   m_ObjectHideFlags: 0
@@ -65207,7 +64689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1974036958
 GameObject:
   m_ObjectHideFlags: 0
@@ -65319,7 +64800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1974077119
 GameObject:
   m_ObjectHideFlags: 0
@@ -65431,7 +64911,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1981002122
 GameObject:
   m_ObjectHideFlags: 0
@@ -65543,7 +65022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1989406978
 GameObject:
   m_ObjectHideFlags: 0
@@ -65655,7 +65133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &1990270154
 GameObject:
   m_ObjectHideFlags: 0
@@ -65767,7 +65244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2002280805
 GameObject:
   m_ObjectHideFlags: 0
@@ -65879,7 +65355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2006353333
 GameObject:
   m_ObjectHideFlags: 0
@@ -65991,7 +65466,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2010986463 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3429539971172246317, guid: 8d76d52d46b675e40b2c508a829c62fc, type: 3}
@@ -66141,7 +65615,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2017996185
 GameObject:
   m_ObjectHideFlags: 0
@@ -66253,7 +65726,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2020255630
 GameObject:
   m_ObjectHideFlags: 0
@@ -66365,7 +65837,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2027426436
 GameObject:
   m_ObjectHideFlags: 0
@@ -66477,7 +65948,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2039366940
 GameObject:
   m_ObjectHideFlags: 0
@@ -66589,7 +66059,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2039566317
 GameObject:
   m_ObjectHideFlags: 0
@@ -66701,7 +66170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2039785745
 GameObject:
   m_ObjectHideFlags: 0
@@ -66813,7 +66281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2043158199
 GameObject:
   m_ObjectHideFlags: 0
@@ -66925,7 +66392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2048812107
 GameObject:
   m_ObjectHideFlags: 0
@@ -67037,7 +66503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2049952019
 GameObject:
   m_ObjectHideFlags: 0
@@ -67149,7 +66614,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2056737262
 GameObject:
   m_ObjectHideFlags: 0
@@ -67261,7 +66725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2058132613
 GameObject:
   m_ObjectHideFlags: 0
@@ -67373,7 +66836,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2058653883
 GameObject:
   m_ObjectHideFlags: 0
@@ -67485,7 +66947,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2058702606
 GameObject:
   m_ObjectHideFlags: 0
@@ -67597,7 +67058,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2068188446
 GameObject:
   m_ObjectHideFlags: 0
@@ -67709,7 +67169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2073549117
 GameObject:
   m_ObjectHideFlags: 0
@@ -67821,7 +67280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2089809986
 GameObject:
   m_ObjectHideFlags: 0
@@ -67933,7 +67391,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2091012507
 GameObject:
   m_ObjectHideFlags: 0
@@ -68045,7 +67502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2092422916
 GameObject:
   m_ObjectHideFlags: 0
@@ -68157,7 +67613,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2094179554
 GameObject:
   m_ObjectHideFlags: 0
@@ -68269,7 +67724,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2094606067
 GameObject:
   m_ObjectHideFlags: 0
@@ -68381,7 +67835,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2095720817
 GameObject:
   m_ObjectHideFlags: 0
@@ -68493,7 +67946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2106423724
 GameObject:
   m_ObjectHideFlags: 0
@@ -68605,7 +68057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2109159894
 GameObject:
   m_ObjectHideFlags: 0
@@ -68717,7 +68168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2110675762
 GameObject:
   m_ObjectHideFlags: 0
@@ -68829,7 +68279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2114577425
 GameObject:
   m_ObjectHideFlags: 0
@@ -68941,7 +68390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2118974916
 GameObject:
   m_ObjectHideFlags: 0
@@ -69053,7 +68501,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2123726502
 GameObject:
   m_ObjectHideFlags: 0
@@ -69165,7 +68612,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2129382673
 GameObject:
   m_ObjectHideFlags: 0
@@ -69277,7 +68723,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2136039239
 GameObject:
   m_ObjectHideFlags: 0
@@ -69389,7 +68834,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2139685237
 GameObject:
   m_ObjectHideFlags: 0
@@ -69501,7 +68945,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2140389398
 GameObject:
   m_ObjectHideFlags: 0
@@ -69613,7 +69056,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}
 --- !u!1 &2140779063
 GameObject:
   m_ObjectHideFlags: 0
@@ -69725,4 +69167,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 1
-  _towerPrefab: {fileID: 5148734966440186366, guid: 77dc57f0a7c0d524da1c75dc12731431, type: 3}

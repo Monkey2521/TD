@@ -3,16 +3,16 @@ using UnityEngine;
 [System.Serializable]
 public class TowerStats
 {
-    [SerializeField][Range(1, 30)] int _bulletDamage;
+    [SerializeField][Range(1, 100)] int _bulletDamage;
     public int BulletDamage => _bulletDamage;
 
-    [SerializeField][Range(0.001f, 5f)] float _bulletSpeed;
+    [SerializeField][Range(0.001f, 15f)] float _bulletSpeed;
     public float BulletSpeed => _bulletSpeed;
 
-    [SerializeField][Range(0.1f, 5f)] float _attackTime;
+    [SerializeField][Range(0.1f, 10f)] float _attackTime;
     public float AttackTime => _attackTime;
 
-    [SerializeField][Range(0.1f, 10f)] float _attackRange;
+    [SerializeField][Range(0.1f, 20f)] float _attackRange;
     public float AttackRange => _attackRange;
 
     public static TowerStats operator +(TowerStats first, TowerStats other)

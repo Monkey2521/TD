@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7237725135284566372}
   - component: {fileID: 1476444247}
   m_Layer: 2
-  m_Name: Tower
+  m_Name: SniperTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2775035057223120237}
-  - {fileID: 7335144008082254100}
+  - {fileID: 8992985872442777600}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -49,26 +49,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDebug: 0
-  _name: Base tower
+  _name: Sniper tower
   _icon: {fileID: 0}
-  _upgradeParticle: {fileID: 6497793248253281760}
-  _buildCost: 20
+  _upgradeParticle: {fileID: 4839934830920371444}
+  _buildCost: 50
   _stats:
-    _bulletDamage: 5
-    _bulletSpeed: 5
-    _attackTime: 3
-    _attackRange: 6
+    _bulletDamage: 25
+    _bulletSpeed: 8
+    _attackTime: 7
+    _attackRange: 13.5
   _attackRangeCollider: {fileID: 7237725135284566372}
   _bulletPoolSize: 5
   _bulletPrefab: {fileID: 2324956328620741907, guid: e875d70bf97df954c836abc5bdd6d927, type: 3}
   _maxLevel: 10
-  _upgradeCost: 25
-  _additionalCost: 15
+  _upgradeCost: 35
+  _additionalCost: 25
   _upgradeStatsPerLevel:
-    _bulletDamage: 1
+    _bulletDamage: 3
     _bulletSpeed: 1
-    _attackTime: 0.25
-    _attackRange: 0.2
+    _attackTime: 0.35
+    _attackRange: 0.25
   Buildplace: {fileID: 0}
 --- !u!135 &7237725135284566372
 SphereCollider:
@@ -164,7 +164,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a091809bf0fe634d909fbffabca819a, type: 2}
+  - {fileID: 2100000, guid: 0cb7ca0967abe3e419c2bf501409933a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -186,7 +186,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &7944470600813966681
+--- !u!1001 &8594634414809545805
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -243,13 +243,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1cfeb03de5dc96449bc2b83b58fb86d, type: 3}
---- !u!198 &6497793248253281760 stripped
+--- !u!198 &4839934830920371444 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 3777571634703855801, guid: d1cfeb03de5dc96449bc2b83b58fb86d, type: 3}
-  m_PrefabInstance: {fileID: 7944470600813966681}
+  m_PrefabInstance: {fileID: 8594634414809545805}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &7335144008082254100 stripped
+--- !u!4 &8992985872442777600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 831977873452506189, guid: d1cfeb03de5dc96449bc2b83b58fb86d, type: 3}
-  m_PrefabInstance: {fileID: 7944470600813966681}
+  m_PrefabInstance: {fileID: 8594634414809545805}
   m_PrefabAsset: {fileID: 0}

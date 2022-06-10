@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;
 
-public class EnemyController : ClickableObject, IDamageable, IPrioritable
+public class EnemyController : ClickableObject, IDamageable, IPrioritable, IMoveable
 {
     [SerializeField] bool _isPriorityTarget;
     public bool IsPriorityTarget {
@@ -39,6 +39,8 @@ public class EnemyController : ClickableObject, IDamageable, IPrioritable
     int _hp;
     public int HP => _hp;
     public int MaxHP => _maxHP;
+
+    Quaternion _previousRotation;
 
     EnemySpawner _spawner;
     EventManager _eventManager;
@@ -126,5 +128,16 @@ public class EnemyController : ClickableObject, IDamageable, IPrioritable
         SetPriority();
     }
 
+    public void Move()
+    {
+        Quaternion currentRotation = transform.rotation;
+        
+        if (currentRotation != _previousRotation)
+        {
+            _health.RotateToCamera();
+        }
 
+        _previousRotation = currentRotation;
+
+    }
 }

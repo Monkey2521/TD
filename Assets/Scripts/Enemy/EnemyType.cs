@@ -9,6 +9,9 @@ public class EnemyType
     [SerializeField] int _poolSize;
     public int PoolSize => _poolSize;
 
+    [SerializeField] int _spawnStep;
+    public int SpawnStep => _spawnStep;
+
     public EnemyType(EnemyController enemy)
     {
         _enemy = enemy;

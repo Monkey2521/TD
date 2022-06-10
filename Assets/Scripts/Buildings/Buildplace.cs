@@ -4,7 +4,6 @@ using UnityEngine.EventSystems;
 public class Buildplace : ClickableObject
 {
     [Header("Settings")]
-    [SerializeField] Tower _towerPrefab;
     Tower _tower;
     public Tower Tower => _tower;
 
@@ -41,7 +40,7 @@ public class Buildplace : ClickableObject
     {
         if (_isEmpty && _inventory.RemoveGold(tower.BuildCost))
         {
-            _tower = Instantiate(_towerPrefab, transform.position + Vector3.up, Quaternion.identity, transform);
+            _tower = Instantiate(tower, transform.position + Vector3.up, Quaternion.identity, transform);
             _tower.Init(this);
 
             _isEmpty = false;
