@@ -498,7 +498,7 @@ MonoBehaviour:
   _goldReward: 10
   _stats:
     _damage: 7
-    _speed: 4
+    _speed: 2.75
   _maxHP: 50
 --- !u!1 &6427784261106311161
 GameObject:

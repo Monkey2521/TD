@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Mathf;
 
 public class BuildPanel : MonoBehaviour
 {
@@ -9,7 +10,9 @@ public class BuildPanel : MonoBehaviour
     [Header("Settings")]
     [SerializeField] Animator _animator;
     [SerializeField] GameObject _selectedLinePrefab;
-    GameObject _line;
+    [SerializeField] LineRenderer _towerAttackRangePrefab;
+    GameObject _selectedLine;
+    LineRenderer _towerAttackRange;
 
     [Header("UpgradeMenu")]
     [SerializeField] TowerUpgradeMenu _upgradeMenu;
@@ -34,27 +37,38 @@ public class BuildPanel : MonoBehaviour
         _eventManager.OnTowerClick.AddListener(Init);
         _eventManager.OnGameOver.AddListener(HideBuilds);
         
-        _line = Instantiate(_selectedLinePrefab);
-        _line.SetActive(false);
+        _selectedLine = Instantiate(_selectedLinePrefab);
+        _selectedLine.SetActive(false);
+
+        _towerAttackRange = Instantiate(_towerAttackRangePrefab);
+        _towerAttackRange.enabled = false;
     }
 
     void Init(Buildplace buildplace)
     {
         Init(buildplace, null);
-        _line.transform.position = buildplace.transform.position + Vector3.up * 0.6f;
+        _selectedLine.transform.position = buildplace.transform.position + Vector3.up * 0.6f;
     }
 
     void Init(Tower tower)
     {
         Init(null, tower);
-        _line.transform.position = tower.Buildplace.transform.position + Vector3.up * 0.6f;
+        _selectedLine.transform.position = tower.Buildplace.transform.position + Vector3.up * 0.6f;
     }
 
     void Init(Buildplace buildplace, Tower tower)
     {
         if (_isDebug) Debug.Log("Init");
 
-        _line.SetActive(true);
+        _selectedLine.SetActive(true);
+        
+        if (_buildplace != null)
+        {
+            if (!_buildplace.IsEmpty)
+                _buildplace.Tower.ChangeRange();
+            if (_towerAttackRange.enabled)
+                _towerAttackRange.enabled = false;
+        }
 
         if (!_animator.GetBool("Show"))
         {
@@ -81,6 +95,19 @@ public class BuildPanel : MonoBehaviour
 
     }
 
+    public void ShowAttackRange(Tower tower)
+    {
+        if (_buildplace == null) return;
+
+        _towerAttackRange.transform.position = _buildplace.transform.position + Vector3.up;
+        _towerAttackRange.enabled = true;
+
+        for (int i = 0; i < tower.MAX_LINE_POSITIONS_COUNT; i++)
+        {
+            _towerAttackRange.SetPosition(i, new Vector3(Cos(Deg2Rad * i) * tower.AttackRange, 0f, Sin(Deg2Rad * i) * tower.AttackRange));
+        }
+    }
+
     void ShowBuilds()
     {
         _animator.SetBool("Hide", false);
@@ -89,7 +116,7 @@ public class BuildPanel : MonoBehaviour
 
     public void HideBuilds()
     {
-        _line.SetActive(false);
+        _selectedLine.SetActive(false);
         _animator.SetBool("Hide", true);
         _animator.SetBool("Show", false);
 
@@ -140,16 +167,11 @@ public class BuildPanel : MonoBehaviour
         if (_buildplace != null && _buildplace.IsEmpty)
         {
             if (_buildplace.Build(tower))
+            {
                 ShowUpgradeMenu(_buildplace.Tower);
+                _towerAttackRange.enabled = false;
+            }
             else if (_isDebug) Debug.Log("Cant build " + tower.Name);
-        }
-    }
-
-    public void ShowRangePreview(Tower tower)
-    {
-        if (_buildplace != null)
-        {
-            
         }
     }
 }

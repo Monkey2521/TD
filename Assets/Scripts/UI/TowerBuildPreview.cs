@@ -26,4 +26,9 @@ public class TowerBuildPreview : MonoBehaviour
     {
         _builder.Build(_tower);
     }
+
+    public void ShowRange()
+    {
+        _builder.ShowAttackRange(_tower);
+    }
 }

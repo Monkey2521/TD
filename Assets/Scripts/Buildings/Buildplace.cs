@@ -51,8 +51,6 @@ public class Buildplace : ClickableObject
     {
         if (_isEmpty && _inventory.RemoveGold(tower.BuildCost))
         {
-            //_attackRangePreview.enabled = false;
-
             _tower = Instantiate(tower, transform.position + Vector3.up, Quaternion.identity, transform);
             _tower.Init(this);
             ChangeTowerRange();
@@ -64,14 +62,4 @@ public class Buildplace : ClickableObject
 
         return false;
     }
-/*
-    public void ShowTowerRange(Tower tower)
-    {
-        _attackRangePreview.enabled = true;
-
-        for (int i = 0; i < tower.MAX_LINE_POSITIONS_COUNT; i++)
-        {
-            _attackRangePreview.SetPosition(i, new Vector3(Cos(Deg2Rad * i) * tower.AttackRange, 0f, Sin(Deg2Rad * i) * tower.AttackRange));
-        }
-    }*/
 }

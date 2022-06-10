@@ -109,6 +109,7 @@ public class Tower : ClickableObject
     public void ChangeRange()
     {
         _attackRangeLine.enabled = !_attackRangeLine.enabled;
+        SetRangeMaterial();
     }
 
     void SetRangeMaterial()
@@ -153,6 +154,7 @@ public class Tower : ClickableObject
     void OnGameOver()
     {
         ReturnAllToPool();
+        Destroy(gameObject);
     }
 
     public override void OnPointerClick(PointerEventData eventData)
@@ -235,6 +237,7 @@ public class Tower : ClickableObject
         if (other.tag == "Enemy")
         {
             enemy = other.GetComponent<EnemyController>();
+
             _onEnemyInRange = true;
             SetRangeMaterial();
         }
@@ -262,6 +265,7 @@ public class Tower : ClickableObject
         if (other.tag == "Enemy")
         {
             enemy = other.GetComponent<EnemyController>();
+
             _onEnemyInRange = true;
             SetRangeMaterial();
         }
@@ -290,6 +294,7 @@ public class Tower : ClickableObject
         if (other.tag == "Enemy")
         {
             enemy = other.GetComponent<EnemyController>();
+
             _onEnemyInRange = false;
             SetRangeMaterial();
         }
