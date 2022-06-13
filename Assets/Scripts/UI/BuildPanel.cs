@@ -119,8 +119,10 @@ public class BuildPanel : MonoBehaviour
         _selectedLine.SetActive(false);
         _animator.SetBool("Hide", true);
         _animator.SetBool("Show", false);
+        
+        if (_buildplace != null)
+            _buildplace.ChangeTowerRange();
 
-        _buildplace.ChangeTowerRange();
         _buildplace = null;
     }
 

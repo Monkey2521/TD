@@ -25,5 +25,6 @@ public class ScoreCounter : MonoBehaviour
     void Restart()
     {
         _score = 0;
+        _scoreText.text = _score.ToString();
     }
 }
